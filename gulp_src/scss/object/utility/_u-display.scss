@@ -1,0 +1,30 @@
+@use "../../global/import"as *;
+
+@include pc{
+    .u-pc{
+        display: block;
+    }
+    .u-sp{
+        display: none;
+    }
+}
+
+@include tab{
+    .u-pc{
+        display: block;
+    }
+    .u-sp{
+        display: none;
+    }
+}
+
+@include sp{
+    .u-pc{
+        display: none;
+    }
+    .u-sp{
+        display: block;
+    }
+}
+
+

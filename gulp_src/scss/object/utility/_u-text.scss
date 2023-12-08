@@ -1,0 +1,36 @@
+@use "../../global/import"as *;
+
+.u-center{
+    text-align: center;
+}
+.u-left{
+    text-align: left;
+}
+.u-right{
+    text-align: right;
+}
+.u-bold{
+    font-weight: bold;
+}
+.u-primary{
+    color: #c11515;
+}
+.u-secondary{
+    color: #fee330;
+}
+
+@include pc{
+    .u-note{
+        font-size: 16px;
+    }
+}
+@include tab{
+    .u-note{
+        font-size: 15px;
+    }
+}
+@include sp{
+    .u-note{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,149 @@
+@use "../../global/import"as *;
+
+@include pc {
+    .p-about-profile{
+        position: absolute;
+        top: 57px;
+        right: -66px;
+        z-index: 1;
+        width: 100%;
+        padding: 80px 40px 40px 40%;
+        margin-bottom: 100px;
+        background-color: #cc1818;
+        display: flex;
+        flex-direction: column;
+        word-break: break-word;
+
+        &__txt{
+            font-size: 20px;
+            &--large{
+                font-size: 40px;
+            }
+        }
+        &__head{
+            display: flex;
+            align-items: center;
+            gap: 0 20px;
+            margin-bottom: 30px;
+        }
+        &__links{
+            display: flex;
+            align-items: center;
+            gap: 0 10px;
+        }
+        &__icon{
+            width: 30px;
+            height: 30px;
+        }
+        &__feature{    
+            display: flex;
+            gap: 0 40px;
+    
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        &__dt{
+            min-width: 137px;
+            font-weight: bold;  
+        }
+        &__dd{
+            display: flex;
+            gap: 0 10px;
+        }
+    }
+}
+
+@include tab {
+    .p-about-profile{
+        position: absolute;
+        top: 150px;
+        left: 0;
+        width: 90%;
+        z-index: 1;
+        padding: 30px 20px 50px 30px;
+        background-color: #cc1818;
+
+        &__txt{
+            font-size: 24px;
+            &--large{
+                font-size: 28px;
+            }
+        }
+        &__head{
+            display: flex;
+            align-items: center;
+            gap: 0 20px;
+            margin-bottom: 30px;
+        }
+        &__name{
+            margin-bottom: 0;
+            font-weight: bold;
+        }
+        &__links{
+            display: flex;
+            align-items: center;
+            gap: 0 10px;
+        }
+        &__icon{
+            width: 30px;
+            height: 30px;
+        }
+        &__feature{    
+            display: flex;
+            gap: 0 40px;
+    
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        &__dt{
+            min-width: 137px;
+            font-weight: bold;  
+        }
+        &__dd{
+            display: flex;
+            gap: 0 10px;
+        }      
+    }
+}
+
+@include sp {
+    .p-about-profile{
+        padding: 20px;
+        background-color: #cc1818;
+
+        &__txt{
+            font-size: 18px;
+            &--large{
+                font-size: 25px;
+            }
+        }
+        &__head{
+            display: flex;
+            align-items: center;
+            gap: 0 20px;
+            margin-bottom: 30px;
+        }
+        &__links{
+            display: flex;
+            align-items: center;
+            gap: 0 10px;
+        }
+        &__icon{
+            width: 30px;
+            height: 30px;
+        }
+        &__dt{
+            margin-bottom: 4px;
+            font-weight: bold;       
+        }
+        &__dd{
+            display: flex;
+            gap: 0 10px;
+        }       
+    }
+}
+
+
+

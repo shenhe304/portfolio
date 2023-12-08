@@ -1,0 +1,87 @@
+@use "../../global/import"as *;
+
+@include pc {
+    .p-contact{
+        background: linear-gradient(-225deg, #ccc 0%, #fff 53%, #ccc 100%);
+        text-align: center;
+
+        &__txt{
+            margin-bottom: 85px;
+        }
+        &__wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0 80px;
+        }
+
+        &__link{
+            box-shadow: 0 10px 18px #333;
+            display: inline-block;
+
+            &:hover{
+                position: relative;
+                top: 10px;
+                box-shadow: none;
+            }
+        }
+    }
+}
+
+
+@include tab {
+    .p-contact{
+        background: linear-gradient(-225deg, #ccc 0%, #fff 53%, #ccc 100%);
+        text-align: center;
+
+        &__txt{
+            margin-bottom: 85px;
+        }
+        &__wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0 60px;
+        }
+
+        &__link{
+            box-shadow: 0 10px 18px #333;
+            display: inline-block;
+
+            &:hover{
+                position: relative;
+                top: 10px;
+                box-shadow: none;
+            }
+        }
+    }
+}
+
+
+@include sp {
+    .p-contact{
+        background: linear-gradient(-225deg, #ccc 0%, #fff 53%, #ccc 100%);
+        text-align: center;
+
+        &__txt{
+            margin-bottom: 20px;
+        }
+
+        &__link{
+            margin-bottom: 25px;
+            box-shadow: 0 5px 10px #333;
+            display: inline-block;
+
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+
+            &:hover{
+                position: relative;
+                top: 10px;
+                box-shadow: none;
+            }
+        }
+
+    }
+}

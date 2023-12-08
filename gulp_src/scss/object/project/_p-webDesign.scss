@@ -1,0 +1,284 @@
+@use "../../global/import"as *;
+
+@include pc {
+    .p-webDesign{
+        &__head{
+            padding: 80px 0;
+            background: #cc1818;
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+        &__mv{
+            width: 790px;
+        }
+        &__h1{
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%) rotate(-90deg);
+        }
+        &__h2{
+            position: relative;
+            z-index: 1;
+            line-height: 0;
+            
+            &::after{
+                content: "";
+                position: absolute;
+                top: -60px;
+                left: -100px;
+                width: 180px;
+                height: 180px;
+                background: #fee300;
+                z-index: -1;
+                box-shadow: -30px -30px #cc1818;
+            }
+        }
+        &__bg{
+            position: relative;
+            background: #efe8dd;
+        }
+        &__items{
+            display: flex;
+            justify-content: center;
+            gap: 0 60px;        
+        }
+        &__item{
+            width: calc(50% - 30px);
+        }
+        &__img{
+            width: 100%;
+
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+        &__box{
+            padding: 40px 20px;
+            margin: 0 auto 20px;
+            font-size: 25px;
+            border-top: 2px solid #333;
+            border-bottom: 2px solid #333;
+        }
+        &__dl{
+            display: flex;
+            gap: 0 35px;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px dotted #333;
+
+            &:last-of-type{
+                margin-bottom: 0;
+                padding-bottom: 0;
+                border-bottom: none;
+            }
+        }
+        &__dt{
+            min-width: 90px;
+            font-weight: bold;
+        }
+        &__dd{
+            display: flex;
+            gap: 0 10px;
+        }
+        &__icon{
+            width: 50px;
+            height: 50px;
+        }
+        &__note{
+            position: absolute;
+            left: 30%;
+            transform: translateX(-30%);
+        }
+    
+    }
+}
+
+@include tab {
+    .p-webDesign{
+        &__head{
+            padding: 80px 0;
+            background: #cc1818;
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+        &__mv{
+            width: 790px;
+        }
+        &__h1{
+            position: absolute;
+            bottom: 0;
+            left: 55px;
+        }
+        &__h2{
+            position: relative;
+            z-index: 1;
+            line-height: 0;
+            
+            &::after{
+                content: "";
+                position: absolute;
+                top: -30px;
+                left: -10px;
+                width: 150px;
+                height: 150px;
+                background: #fee300;
+                z-index: -1;
+                box-shadow: -30px -30px #cc1818;
+            }
+        }
+        &__bg{
+            position: relative;
+            background: #efe8dd;
+        }
+        &__items{
+            display: flex;
+            justify-content: center;
+            gap: 0 30px;        
+        }
+        &__item{
+            width: calc(50% - 30px);
+        }
+        &__img{
+            width: 100%;
+
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+        &__box{
+            padding: 40px 20px;
+            margin: 0 auto 20px;
+            font-size: 25px;
+            border-top: 2px solid #333;
+            border-bottom: 2px solid #333;
+        }
+        &__dl{
+            display: flex;
+            gap: 0 35px;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px dotted #333;
+
+            &:last-of-type{
+                margin-bottom: 0;
+                padding-bottom: 0;
+                border-bottom: none;
+            }
+        }
+        &__dt{
+            min-width: 90px;
+            font-weight: bold;
+        }
+        &__dd{
+            display: flex;
+            gap: 0 10px;
+        }
+        &__icon{
+            width: 50px;
+            height: 50px;
+        }
+        &__note{
+            position: absolute;
+            left: 30%;
+            transform: translateX(-30%);
+        }
+    
+    }
+}
+
+@include sp {
+    .p-webDesign{
+        &__head{
+            padding: 50px 0;
+            background: #cc1818;
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+        &__mv{
+            width: 355px;
+        }
+        &__h1{
+            position: absolute;
+            bottom: 0;
+            left: 12px;
+        }
+        &__h2{
+            position: relative;
+            z-index: 1;
+            line-height: 0;
+            
+            &::after{
+                content: "";
+                position: absolute;
+                top: -5px;
+                left: 0px;
+                width: 60px;
+                height: 60px;
+                background: #fee300;
+                z-index: -1;
+                box-shadow: -6px -6px #cc1818;
+            }
+        }
+        &__bg{
+            position: relative;
+            background: #efe8dd;
+        }
+        &__items{
+            display: flex;
+            justify-content: center;
+            gap: 0 30px;        
+        }
+        &__item{
+            width: calc(50% - 30px);
+        }
+        &__img{
+            width: 100%;
+
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+        &__box{
+            padding: 30px 0;
+            margin: 0 auto 20px;
+            font-size: 18px;
+            border-top: 2px solid #333;
+            border-bottom: 2px solid #333;
+        }
+        &__dl{
+            margin-bottom: 20px;
+            padding-bottom: 30px;
+            border-bottom: 1px dotted #333;
+
+            &:last-of-type{
+                margin-bottom: 0;
+                padding-bottom: 0;
+                border-bottom: none;
+            }
+        }
+        &__dt{
+            min-width: 90px;
+            font-weight: bold;
+        }
+        &__dd{
+            display: flex;
+            gap: 0 10px;
+        }
+        &__icon{
+            width: 50px;
+            height: 50px;
+        }
+        &__note{
+            position: absolute;
+            left: 30%;
+            transform: translateX(-30%);
+        }
+    
+    }
+}
+
+
+

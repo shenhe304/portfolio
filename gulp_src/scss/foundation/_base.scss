@@ -1,0 +1,75 @@
+@use "../global/import"as *;
+
+body{
+    font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    color: #333;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  a:hover,
+  a:active,
+  a:focus {
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+
+  ul,ol{
+    list-style: none;
+  }
+
+  @include pc{
+    p{
+      margin-bottom: 20px;
+      font-size: 25px;
+      line-height: 1.8;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @include tab{
+    p{
+      margin-bottom: 18px;
+      font-size: 20px;
+      line-height: 1.8;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @include sp{
+    p{
+      margin-bottom: 15px;
+      font-size: 17px;
+      line-height: 1.5;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }

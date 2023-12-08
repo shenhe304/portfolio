@@ -1,0 +1,99 @@
+@use "../../global/import"as *;
+
+@include pc{
+    .c-title-lv1{
+        margin-bottom: 30px;
+        font-weight: normal;
+
+        &--large{
+            font-size: 76px;
+        }
+    }
+    
+    .c-title-lv2{
+        margin-bottom: 110px;
+        font-size: 90px;
+        font-weight: bold;
+    
+        &--white{
+            color: #fff;
+        }
+
+        &--small{
+            margin-bottom: 100px;
+            font-size: 60px;
+            font-weight: bold;
+        }
+    }
+
+    .c-title-lv3{
+        font-size: 60px;
+        font-weight: bold;
+
+        &--small{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+}
+
+@include tab{
+    .c-title-lv1{
+        margin-bottom: 30px;
+        font-weight: normal;
+
+        &--large{
+            font-size: 76px;
+        }
+    }
+    
+    .c-title-lv2{
+        margin-bottom: 60px;
+        font-size: 90px;
+        font-weight: bold;
+    
+        &--white{
+            color: #fff;
+        }
+        &--small{
+            margin-bottom: 80px;
+            font-size: 60px;
+            font-weight: bold;
+        }
+    }
+
+    .c-title-lv3{
+        font-size: 60px;
+        font-weight: bold;
+    }
+}
+
+@include sp{
+    .c-title-lv1{
+        margin-bottom: 30px;
+        font-weight: normal;
+        font-size: 28px;
+
+        &--large{
+            font-size: 33px;
+        }
+    }
+    .c-title-lv2{
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: bold;    
+        &--white{
+            color: #fff;
+        }
+        &--small{
+            margin-bottom: 40px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+    .c-title-lv3{
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+

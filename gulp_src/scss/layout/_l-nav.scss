@@ -1,0 +1,70 @@
+@use "../global/import"as *;
+
+@include pc {
+    .l-nav{
+        &__menus{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0 50px;
+        }
+        &__menu{
+            font-size: 38px;
+            font-weight: bold;
+        }
+        &__link{
+            color: #333;
+            &:hover{
+                color: #cc1818;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@include tab {
+    .l-nav{
+        &__menus{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0 50px;
+        }
+        &__menu{
+            font-size: 38px;
+            font-weight: bold;
+        }
+        &__link{
+            color: #333;
+            &:hover{
+                color: #cc1818;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@include sp {
+    .l-nav{
+        &__menus{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0 20px;
+        }
+        &__menu{
+            font-size: 26px;
+            font-weight: bold;
+        }
+        &__link{
+            color: #333;
+            &:hover{
+                color: #cc1818;
+                cursor: pointer;
+            }
+        }
+    }
+}

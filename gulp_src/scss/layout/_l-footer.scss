@@ -1,0 +1,29 @@
+.l-footer{
+    padding: 105px 0 40px;
+    height: 380px;
+    background: #cc1818;
+    color: #fff;
+    text-align: center;
+
+    &__menus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0 20px;
+        margin-bottom: 50px;
+    }
+    &__link{
+        font-size: 18px;
+        &:hover{
+            color: #fff;
+            text-decoration: underline;
+        }
+    }
+    &__txt{
+        font-size: 16px;
+        margin-bottom: 22px;
+    }
+    &__copyright{
+        font-size: 20px;
+    }
+}

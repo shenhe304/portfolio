@@ -1,0 +1,104 @@
+@use "../../global/import"as *;
+
+@include pc {
+    .p-work{
+        background: linear-gradient(225deg, #ccc 0%, #fff 53%, #ccc 100%);
+        position: relative;
+        &__h2{
+            position: absolute;
+            top: -3%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &__items{
+            margin-bottom: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+        &__item{
+            width: calc(100% / 4 - 40px);
+            box-shadow: 0 9px 5px #ccc;
+            &:hover{
+                position:relative;
+                top: 9px;
+                box-shadow: none;
+            }
+            &--large{
+                width: calc(100% / 2 - 40px);
+            }
+        }        
+    }        
+}
+
+@include tab {
+    .p-work{
+        background: linear-gradient(225deg, #ccc 0%, #fff 53%, #ccc 100%);
+        position: relative;
+
+        &__h2{
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &__items{
+            margin-bottom: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+
+            &:nth-child(2){
+                margin-bottom: 60px;
+            }
+        }
+        &__item{
+            width: calc(100% / 2 - 40px);
+            box-shadow: 0 9px 5px #ccc;
+
+            &:hover{
+                position:relative;
+                top: 9px;
+                box-shadow: none;
+                cursor: pointer;
+            }
+            &--large{
+                width: calc(100% / 2 - 40px);
+            }
+        }        
+    }        
+}
+
+@include sp {
+    .p-work{
+        background: linear-gradient(225deg, #ccc 0%, #fff 53%, #ccc 100%);
+        position: relative;
+
+        &__h2{
+            position: absolute;
+            top: -17px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &__items{
+            margin-bottom: 20px;
+            &:last-of-type{
+                margin-bottom: 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+            }
+        }
+        &__item{
+            margin-bottom: 20px;
+            box-shadow:0 5px 5px #ccc;
+            &--sp{
+                margin-bottom: 0;
+                width: calc(100% / 2 - 10px);
+            }
+        }
+    }        
+}

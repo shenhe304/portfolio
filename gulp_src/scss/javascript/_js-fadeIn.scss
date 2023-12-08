@@ -1,0 +1,61 @@
+@use "../global/import"as *;
+
+// fade-in-bottom
+.js-scrollUp{
+    transition: 1s ease-in-out;
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.js-scrollUp.on {
+transform: translateY(0);
+opacity: 1.0;
+}
+
+// fade-in-left
+.js-scrollLeft {
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    transform: translateX(-30px);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+}
+.js-scrollLeft.on {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1.0;
+    transform: translateX(0);
+}
+
+@include sp{
+    .js-scrollLeft{
+        transform: translateX(-10px);
+    }
+}
+
+// fade-in-right
+.js-scrollRight {
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    transform: translateX(30px);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+}
+.js-scrollRight.on {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1.0;
+    transform: translateX(0);
+}
+
+@include sp{
+    .js-scrollRight{
+        transform: translateX(10px);
+    }
+}
