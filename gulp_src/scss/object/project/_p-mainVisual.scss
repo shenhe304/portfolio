@@ -2,78 +2,16 @@
 
 @include pc {
     .p-mainVisual{
-        height: 100vh;
-        margin-bottom: 90px;
-        text-align: center;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
+        gap: 0 168px;
 
-        &__hello{
-            font-size: 30px;
-            font-weight: bold;
-            margin-bottom: 40px;
-        }
-        
         &__circle{
-            margin: 0 auto 75px auto;
-            width: 510px;
-            height: 483px;
+            width: 566px;
+            height: 566px;
+            background-color: #D2001A;
             border-radius: 50%;
-            background-color: #cc1818;
         }
     }
 }
 
-@include tab {
-    .p-mainVisual{
-        height: 100vh;
-        margin-bottom: 90px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        &__hello{
-            font-size: 30px;
-            font-weight: bold;
-            margin-bottom: 40px;
-        }
-
-        &__circle{
-            margin: 0 auto 75px auto;
-            width: 510px;
-            height: 483px;
-            border-radius: 50%;
-            background-color: #cc1818;
-        }
-    }
-}
-
-@include sp {
-    .p-mainVisual{
-        height: 100vh;
-        margin-bottom:40px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        &__hello{
-            font-size: 30px;
-            font-weight: bold;
-            margin-bottom: 40px;
-        }
-
-        &__circle{
-            margin: 0 auto 55px auto;
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            background-color: #cc1818;
-        }
-    }
-}
