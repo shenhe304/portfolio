@@ -1,0 +1,29 @@
+@use "../../global/import"as *;
+
+@include pc {
+    .p-backGround{
+        position: relative;
+
+        &__circleTop{
+            position: absolute;
+            top: 860px;
+            left: -229px;
+            width: 764px;
+            height: 764px;
+            background-color: #d2001a;
+            border-radius: 50%;
+        }
+
+        &__circleBottom{
+            position: absolute;
+            bottom: 212px;
+            left: -229px;
+            width: 700px;
+            height: 700px;
+            background: #fff;
+            border-color: 87px solid #d2001a;
+            border-radius: 50%;
+        }
+    }
+}
+

@@ -20,7 +20,7 @@ html {
   a {
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: #333
   }
 
   a:hover,
@@ -41,36 +41,6 @@ html {
 
   @include pc{
     p{
-      margin-bottom: 20px;
-      font-size: 25px;
-      line-height: 1.8;
-
-      &:last-child{
-        margin-bottom: 0;
-      }
-    }
+      font-size: 16px;
   }
-
-  @include tab{
-    p{
-      margin-bottom: 18px;
-      font-size: 20px;
-      line-height: 1.8;
-
-      &:last-child{
-        margin-bottom: 0;
-      }
-    }
-  }
-
-  @include sp{
-    p{
-      margin-bottom: 15px;
-      font-size: 17px;
-      line-height: 1.5;
-
-      &:last-child{
-        margin-bottom: 0;
-      }
-    }
-  }
+}

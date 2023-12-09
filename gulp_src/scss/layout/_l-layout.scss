@@ -2,9 +2,14 @@
 
 @include pc{
 
+    section{
+        margin-bottom: 100px;
+    }
+
     .l-container{
         max-width: 1400px;
         margin: 0 auto;
+        padding-top: 206px;
     }
     .l-containerSmall{
         max-width: 700px;
@@ -13,6 +18,7 @@
     .l-containerWorks{
         max-width: 1000px;
         margin: 0 auto;
+        padding-top: 90px;
     }
 }
 

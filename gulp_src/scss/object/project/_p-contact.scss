@@ -1,0 +1,16 @@
+@use "../../global/import"as *;
+
+@include pc {
+    .p-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 10px;
+
+        &__icon{
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+
