@@ -1,5 +1,18 @@
 @use "../../global/import"as *;
 
+.c-center{
+    text-align: center;
+}
+.c-left{
+    text-align: left;
+}
+.c-right{
+    text-align: right;
+}
+.c-bold{
+    font-weight: bold;
+}
+
 @include pc{
     .c-txtLarge{
         font-size: 24px;
