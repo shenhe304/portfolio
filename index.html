@@ -14,7 +14,7 @@
     <title>Miwa Katagiri Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="apple-touch-icon" type="image/png" href="./assets/img/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="./assets/img/icon-192x192.png">    
+    <link rel="icon" type="image/png" href="./assets/img/icon-192x192.png">
 </head>
 <body>
     <div class="p-backGround">
@@ -22,26 +22,10 @@
         <div class="p-backGround__maple"></div>
         <div class="p-backGround__circleBottom"></div>
         <div class="l-container">
-            <header class="l-header">
-                <img src="./assets/img/icon/logo.svg" alt="logo" class="l-header__logo">
-                <nav class="l-nav">
-                    <ul class="l-nav__links">
-                        <li><a href="#">TOP</a></li>
-                        <li><a href="#webDesign">WEB design</a></li>
-                        <li><a href="#uiDesign">UI/UX design</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/miwa30/"><img src="./assets/img/icon/icon-linkedIn.svg" alt="linkedin"></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/shenhe304"><img src="./assets/img/icon/icon-gituhub.svg" alt="github"></a>
-                        </li>
-                        <li>
-                            <a href="mailto:miwak.work@gmail.com"><img src="./assets/img/icon/icon-email.svg" alt="email"></a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
+
+            <!-- header -->
+            <?php include($_SERVER['DOCUMENT_ROOT']."./inc/header.php"); ?>
+            
             <main>
                 <div class="l-backGround">
                     <section class="p-mainVisual">
@@ -134,15 +118,9 @@
                 </div><!--/.l-backGround  -->
             </main>
 
-            <footer class="l-footer">
-                <ul class="p-contact">
-                    <li><a href="https://www.linkedin.com/in/miwa30/"><img src="./assets/img/icon/icon-linkedIn.svg" alt="linkedin" class="p-contact__icon"></a></li>
-                    <li><a href="https://github.com/shenhe304"><img src="./assets/img/icon/icon-gituhub.svg" alt="github" class="p-contact__icon"></a></li>
-                    <li><a href="mailto:miwak.work@gmail.com"><img src="./assets/img/icon/icon-email.svg" alt="email" class="p-contact__icon"></a></li>
-                </ul>
-                <p class="c-txtSmall">Thank you for your time,<br class="u-sp">I look forward to your message</p>
-                <p class="c-txtSmall">©︎2023 Miwa Katagiri</p>
-            </footer>
+            <!-- footer -->
+            <?php include($_SERVER['DOCUMENT_ROOT']."/inc/footer.php"); ?>
+
         </div><!-- /.l-container -->
     </div><!-- /.p-backGround -->
 <script src="./assets/js/fadeIn.js"></script>
