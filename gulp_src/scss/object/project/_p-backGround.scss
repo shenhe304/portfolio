@@ -3,6 +3,7 @@
 @include pc {
     .p-backGround{
         position: relative;
+        overflow: hidden;
 
         &__circleTop{
             position: absolute;
@@ -12,6 +13,7 @@
             height: 700px;
             background-color: #d2001a;
             border-radius: 50%;
+            z-index: -1;
         }
 
         &__circleBottom{
@@ -23,6 +25,7 @@
             background: #fff;
             border: 87px solid #d2001a;
             border-radius: 50%;
+            z-index: -1;
         }
     }
 }
