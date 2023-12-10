@@ -20,17 +20,14 @@
 }
 
 @include pc{
-    .u-note{
-        font-size: 16px;
+    .u-txtLarge{
+        font-size: 24px;
     }
-}
-@include tab{
-    .u-note{
-        font-size: 15px;
+    .u-txtMedium{
+        font-size: 18px;
     }
-}
-@include sp{
-    .u-note{
+    .u-txtSmall{
         font-size: 14px;
     }
 }
+

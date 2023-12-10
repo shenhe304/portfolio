@@ -2,15 +2,18 @@
 
 @include pc{
     .c-title-lv1{
+        margin-bottom: 30px;
         font-size: 20px;
+        font-family: 'Inknut Antiqua', serif;
 
         &--large{
             font-size: 30px;
-            font-family: 'Inknut Antiqua', serif;
+            font-family: initial;
         }
     }
     
     .c-title-lv2{
+        margin-bottom: 20px;
         font-size: 18px;
         font-family: 'Inknut Antiqua', serif;
 

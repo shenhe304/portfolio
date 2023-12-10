@@ -1,7 +1,10 @@
 @use "../global/import"as *;
 
-@include pc{
+dl + img {
+    margin-bottom: 20px;
+}
 
+@include pc{
     section{
         margin-bottom: 100px;
     }
