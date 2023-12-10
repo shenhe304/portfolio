@@ -23,3 +23,50 @@
     }
 }
 
+@include tab {
+    .p-about{
+        &__features{
+            padding: 20px 0;
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+        }
+        &__wrap{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0 20px;
+        }
+        &__icon{
+            width: 40px;
+            &--large{
+                width: 45px;
+            }
+        }
+
+    }
+}
+
+@include sp {
+    .p-about{
+        &__features{
+            padding: 20px 0;
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+        }
+        &__wrap{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0 20px;
+        }
+        &__icon{
+            width: 40px;
+            &--large{
+                width: 45px;
+            }
+        }
+
+    }
+}
+
+

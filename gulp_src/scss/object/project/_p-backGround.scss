@@ -30,3 +30,62 @@
     }
 }
 
+@include tab {
+    .p-backGround{
+        position: relative;
+        overflow: hidden;
+
+        &__circleTop{
+            position: absolute;
+            top: 710px;
+            left: -229px;
+            width: 700px;
+            height: 700px;
+            background-color: #d2001a;
+            border-radius: 50%;
+            z-index: -1;
+        }
+
+        &__circleBottom{
+            position: absolute;
+            bottom: -120px;
+            left: -229px;
+            width: 700px;
+            height: 700px;
+            background: #fff;
+            border: 87px solid #d2001a;
+            border-radius: 50%;
+            z-index: -1;
+        }
+    }
+}
+
+@include sp {
+    .p-backGround{
+        position: relative;
+        overflow: hidden;
+
+        &__circleTop{
+            position: absolute;
+            top: 710px;
+            left: -229px;
+            width: 700px;
+            height: 700px;
+            background-color: #d2001a;
+            border-radius: 50%;
+            z-index: -1;
+        }
+
+        &__circleBottom{
+            position: absolute;
+            bottom: -120px;
+            left: -229px;
+            width: 700px;
+            height: 700px;
+            background: #fff;
+            border: 87px solid #d2001a;
+            border-radius: 50%;
+            z-index: -1;
+        }
+    }
+}

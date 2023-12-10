@@ -14,6 +14,22 @@
     }
 }
 
+@include tab {
+    .p-uiDesign{
+        &__wrap{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        &__item{
+            width: calc(100% / 6);
+        }
+    
+    }
+}
+
+
+
 
 
 

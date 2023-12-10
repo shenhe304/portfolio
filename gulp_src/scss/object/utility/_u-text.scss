@@ -10,7 +10,7 @@
     text-align: right;
 }
 .u-bold{
-    font-weight: bold;
+    font-weight: 400;
 }
 .u-primary{
     color: #c11515;
@@ -28,6 +28,30 @@
     }
     .u-txtSmall{
         font-size: 14px;
+    }
+}
+
+@include tab{
+    .u-txtLarge{
+        font-size: 24px;
+    }
+    .u-txtMedium{
+        font-size: 18px;
+    }
+    .u-txtSmall{
+        font-size: 14px;
+    }
+}
+
+@include sp{
+    .u-txtLarge{
+        font-size: 19px;
+    }
+    .u-txtMedium{
+        font-size: 17px;
+    }
+    .u-txtSmall{
+        font-size: 12px;
     }
 }
 

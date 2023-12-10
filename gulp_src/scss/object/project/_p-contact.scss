@@ -15,3 +15,33 @@
     }
 }
 
+@include tab {
+    .p-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 10px;
+        margin-bottom: 20px;
+
+        &__icon{
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+
+@include sp {
+    .p-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 10px;
+        margin-bottom: 20px;
+
+        &__icon{
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+

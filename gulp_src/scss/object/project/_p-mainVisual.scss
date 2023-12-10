@@ -15,3 +15,35 @@
     }
 }
 
+@include tab {
+    .p-mainVisual{
+        display: flex;
+        align-items: center;
+        padding-top: 206px;
+
+        &__circle{
+            width: 566px;
+            height: 566px;
+            background-color: #D2001A;
+            border-radius: 50%;
+        }
+    }
+}
+
+@include sp {
+    .p-mainVisual{
+        display: flex;
+        align-items: center;
+        padding-top: 206px;
+
+        &__circle{
+            width: 566px;
+            height: 566px;
+            background-color: #D2001A;
+            border-radius: 50%;
+        }
+    }
+}
+
+
+
