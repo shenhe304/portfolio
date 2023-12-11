@@ -4,11 +4,12 @@
     .p-mainVisual{
         display: flex;
         align-items: center;
-        padding-top: 206px;
+        justify-content: space-between;
+        padding-top: 120px;
 
         &__circle{
-            width: 500px;
-            height: 500px;
+            width: 480px;
+            height: 480px;
             background-color: #d2001a;
             border-radius: 50%;
         }
@@ -22,8 +23,8 @@
         padding-top: 206px;
 
         &__circle{
-            width: 500px;
-            height: 500px;
+            width: 480px;
+            height: 480px;
             background-color: #d2001a;
             border-radius: 50%;
         }
@@ -37,8 +38,8 @@
         padding-top: 206px;
 
         &__circle{
-            width: 500px;
-            height: 500px;
+            width: 480px;
+            height: 480px;
             background-color: #d2001a;
             border-radius: 50%;
         }
