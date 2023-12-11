@@ -56,11 +56,20 @@
         &__wrap{
             display: flex;
             align-items: center;
-            justify-content: center;
-            gap: 0 20px;
+            flex-wrap: wrap;
+            gap: 8px 20px;
+
+            &:nth-of-type(2){
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 8px 20px;
+            }
+
         }
         &__icon{
-            width: 40px;
+            width: 38px;
             &--large{
                 width: 45px;
             }

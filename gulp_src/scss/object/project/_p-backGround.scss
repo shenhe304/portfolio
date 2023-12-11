@@ -2,9 +2,8 @@
 
 @include pc {
     .p-backGround{
+        position: relative;
         overflow: hidden;
-
-
 
         &__circleTop{
             position: absolute;
