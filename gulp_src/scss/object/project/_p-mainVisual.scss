@@ -29,6 +29,10 @@
             background-color: #d2001a;
             border-radius: 50%;
         }
+
+        &__text{
+            max-width: calc(100% /2 + 62px);
+        }
     }
 }
 

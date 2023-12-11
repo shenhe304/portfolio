@@ -1,5 +1,17 @@
 @use "../global/import"as *;
 
+p{
+    font-weight: 300;
+}
+
+p + p{
+    margin-bottom: 20px;
+}
+
+dl{
+    margin-bottom: 20px;
+}
+
 dl + img {
     margin-bottom: 20px;
 }
@@ -22,11 +34,16 @@ dl + img {
         max-width: 1000px;
         margin: 0 auto;
     }
+
+    p{
+        font-size: 16px;
+        line-height: 1.8;
+    }
 }
 
 @include tab{
     section{
-        margin-bottom: 100px;
+        margin-bottom: 70px;
     }
 
     .l-container{
@@ -42,7 +59,10 @@ dl + img {
         max-width: 720px;
         margin: 0 auto;
     }
-
+    p{
+        font-size: 15px;
+        line-height: 1.5;
+    }
 }
 
 @include sp{
@@ -63,5 +83,7 @@ dl + img {
         max-width: 355px;
         margin: 0 auto;
     }
-
+    p{
+        font-size: 14px;
+    }
 }

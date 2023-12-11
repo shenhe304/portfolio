@@ -7,6 +7,11 @@
             align-items: center;
             gap:  0 20px;
         }
+        &__link{
+            &:hover{
+                opacity: 0.3;
+            }
+        }
     }
 }
 
