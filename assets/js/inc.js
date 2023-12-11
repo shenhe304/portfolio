@@ -1,12 +1,10 @@
 // include.js
-function includeHTML(elementId, file) {
-  const xhr = new XMLHttpRequest();
-  xhr.open("GET", file, true);
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-      const content = xhr.responseText;
-      document.getElementById(elementId).innerHTML = content;
-    }
-  };
-  xhr.send();
-}
+const includeHTML = async (elementId, filePath) => {
+  try {
+    const response = await fetch(filePath);
+    const content = await response.text();
+    document.getElementById(elementId).innerHTML = content;
+  } catch (error) {
+    console.error(`Error loading file ${filePath}: ${error}`);
+  }
+};

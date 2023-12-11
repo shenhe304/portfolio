@@ -6,9 +6,10 @@
             display: flex;
             align-items: center;
             flex-wrap: wrap;
+            gap: 10px;
         }
         &__item{
-            width: calc(100% / 6);
+            width: calc(100% / 6 - 10px);
         }
     
     }
@@ -20,9 +21,10 @@
             display: flex;
             align-items: center;
             flex-wrap: wrap;
+            gap: 10px;
         }
         &__item{
-            width: calc(100% / 6);
+            width: calc(100% / 6 - 10px);
         }
     
     }
