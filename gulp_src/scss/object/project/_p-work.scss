@@ -1,7 +1,7 @@
 @use "../../global/import"as *;
 
 @include pc {
-    .p-webDesign{
+    .p-work{
         &__wrap{
             display: flex;
             align-items: center;
@@ -10,7 +10,7 @@
         }
 
         &__item{
-            width: calc(100% / 3 - 20px);
+            width: calc(100% / 4 - 20px);
         }
 
         &__text{
@@ -23,7 +23,7 @@
 }
 
 @include tab {
-    .p-webDesign{
+    .p-work{
         &__wrap{
             display: flex;
             align-items: center;
