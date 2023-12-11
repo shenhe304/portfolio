@@ -1,4 +1,4 @@
-// include.js
+// inc.js
 const includeHTML = async (elementId, filePath) => {
   try {
     const response = await fetch(filePath);
