@@ -20,7 +20,8 @@
     .p-mainVisual{
         display: flex;
         align-items: center;
-        padding-top: 206px;
+        justify-content: space-between;
+        padding-top: 100px;
 
         &__circle{
             width: 350px;
