@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
       var data = JSON.parse(xhr.responseText);
-      var currentPage = 'web-syohin';
+      var currentPage = 'works/web-syohin';
 
       document.title = data[currentPage].title;
       // メタタグに設定する場合

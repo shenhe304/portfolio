@@ -10,11 +10,3 @@ function includeHTML(elementId, file) {
   };
   xhr.send();
 }
-
-// index.html
-includeHTML("header", "inc/header.html");
-includeHTML("footer", "inc/footer.html");
-
-// subPage.html
-includeHTML("header", "inc/header.html");
-includeHTML("footer", "inc/footer.html");
