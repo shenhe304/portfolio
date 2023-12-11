@@ -25,9 +25,43 @@ dl + img {
 }
 
 @include tab{
+    section{
+        margin-bottom: 100px;
+    }
+
+    .l-container{
+        max-width: 1000px;
+        margin: 0 auto;
+
+    }
+    .l-containerSmall{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .l-containerWorks{
+        max-width: 800px;
+        margin: 0 auto;
+    }
 
 }
 
 @include sp{
+    section{
+        margin-bottom: 100px;
+    }
+
+    .l-container{
+        max-width: 355px;
+        margin: 0 auto;
+
+    }
+    .l-containerSmall{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .l-containerWorks{
+        max-width: 355px;
+        margin: 0 auto;
+    }
 
 }
