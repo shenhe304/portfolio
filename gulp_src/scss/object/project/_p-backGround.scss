@@ -26,6 +26,7 @@
             background: url(../../assets/img/common/bg-circle-bottom.png) no-repeat;
             background-size: contain;
             z-index: -1;
+            animation: tikatika 1s step-end infinite;
         }
     }
 }
@@ -89,4 +90,10 @@
             background-attachment: fixed;
         }
     }
+}
+
+@keyframes tikatika {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
 }
