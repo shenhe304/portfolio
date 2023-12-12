@@ -19,14 +19,13 @@
 
         &__circleBottom{
             position: absolute;
-            bottom: -70px;
-            left: -130px;
+            bottom: 0;
+            left: -40px;
             width: 600px;
             height: 600px;
-            border-radius: 50%;
             background: url(../../assets/img/common/bg-circle-bottom.png) no-repeat;
             background-size: contain;
-            background-attachment: fixed;
+            z-index: -1;
         }
     }
 }
@@ -50,14 +49,13 @@
 
         &__circleBottom{
             position: absolute;
-            bottom: -70px;
-            left: -130px;
-            width: 600px;
-            height: 600px;
-            border-radius: 50%;
+            bottom: 0;
+            left: -90px;
+            width: 400px;
+            height: 400px;
             background: url(../../assets/img/common/bg-circle-bottom.png) no-repeat;
             background-size: contain;
-            background-attachment: fixed;
+            z-index: -1;
         }
     }
 }

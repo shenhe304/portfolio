@@ -15,6 +15,10 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+
+            &--small{
+                max-width: 1000px;
+            }
         }
 
         &__logo{
@@ -38,6 +42,10 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+
+            &--small{
+                max-width: 720px;
+            }
         }
                 
         &__logo{
@@ -59,6 +67,10 @@
             background: #fff;
             z-index: 100;
             box-shadow: 0 2px 10px 0 rgba(51, 51, 51, 0.25);
+
+            &--small{
+                max-width: 355px;
+            }
         }
             
         &__logo{
