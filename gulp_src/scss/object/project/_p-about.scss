@@ -18,6 +18,18 @@
             &--large{
                 width: 45px;
             }
+            &:hover{
+                display:none;
+            }
+        }
+
+        &__disc{
+            display: none;
+
+            &:hover{
+                display: block;
+                opacity: 0.6s;
+            }
         }
 
     }

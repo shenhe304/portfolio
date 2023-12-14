@@ -19,9 +19,8 @@ dl + img {
 a{
     &:hover{
         color: #d2001a;
-        opacity: 0.3;
+        transition: all 0.5s;
         cursor: pointer;
-        transition: all 1s;
     }
 }
 
