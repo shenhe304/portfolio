@@ -81,14 +81,28 @@
             background-attachment: fixed;
         }
 
-        &__circleBottom{
+        &__maple{
             position: absolute;
             bottom: -70px;
             left: -130px;
             width: 600px;
             height: 600px;
             border-radius: 50%;
-            background: url(../../assets/img/common/bg-circle-bottom.png) no-repeat;
+            background: url(../../assets/img/common/bg-maple.png) no-repeat;
+            background-size: contain;
+            background-attachment: fixed;
+            animation: bounce 3s ease-in-out forwards;
+            animation-iteration-count: infinite;
+        }
+
+        &__sakura{
+            position: absolute;
+            bottom: -70px;
+            left: -130px;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: url(../../assets/img/common/bg-sakura.png) no-repeat;
             background-size: contain;
             background-attachment: fixed;
             animation: bounce 3s ease-in-out forwards;
