@@ -7,20 +7,43 @@
         font-size: 24px;
         border-bottom: 2px solid #333;
         position: relative;
+        display: flex;
+        align-items: center;
+        
+        &:hover{
+            transform: scale(1, 1);
+            opacity: 1;
+        }
         
         &::before{
             position: absolute;
             content: "";
             background: url(../../assets/img/icon/icon-arrow-back.svg) no-repeat;
             width: 60px;
-            height: 29px;
-            top: 50%;
+            height: 13px;
             left: 9px;
-            transform: translateY(-50%);
+
+            &:hover{
+                background: url(../../assets/img/icon/icon-arrow-back-hover.svg) no-repeat;
+            }
         }
-        &:hover{
-            border-bottom: 2px solid #d2001a;
+
+        &::after{
+            content: '';
+            /*絶対配置で線の位置を決める*/
+            position: absolute;
+            bottom: 0;
+            left: 10%;
+            /*線の形状*/
+            width: 80%;
+            height: 2px;
+            background:#D2001A;
+            /*アニメーションの指定*/
+            transition: all .3s;
+            transform: scale(0, 1);/*X方向0、Y方向1*/
+            transform-origin: left top;/*左上基点*/
         }
+
     }
 }
 
