@@ -2,8 +2,8 @@
 
 @include pc{
     .c-btn-back{
-        width: 200px;
-        padding-left: 30px;
+        width: 300px;
+        padding-left: 100px;
         font-size: 24px;
         border-bottom: 2px solid #333;
         position: relative;
@@ -12,14 +12,14 @@
             position: absolute;
             content: "";
             background: url(../../assets/img/icon/icon-arrow-back.svg) no-repeat;
-            width: 20px;
-            height: 20px;
+            width: 60px;
+            height: 29px;
             top: 50%;
-            left: 0;
+            left: 9px;
             transform: translateY(-50%);
         }
         &:hover{
-            background-color: #c11515;
+            border-bottom: 2px solid #d2001a;
         }
     }
 }

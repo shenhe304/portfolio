@@ -3,18 +3,20 @@
 @include pc {
     .p-work{
         &__top{
-            padding-top: 150px;
+            padding:110px 0 50px;
+            background: #D2001A;
+            color: #fff;
         }
         &__mainVisual{
             width: 800px;
             margin: 0 auto;
+            border-radius: 10px;
         }
         &__h1{
             width: 800px;
             margin: 0 auto 20px;
             text-align: center;
         }
-    
     }
 }
 
