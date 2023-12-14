@@ -1,19 +1,21 @@
 @use "../../global/import"as *;
 
 @include pc{
-    .c-btn{
+    .c-btn-back{
+        width: 200px;
+        padding-left: 30px;
         font-size: 24px;
         border-bottom: 2px solid #333;
-        width: 200px;
+        position: relative;
         
-        &::after{
+        &::before{
             position: absolute;
             content: "";
-            background: url("https://raw.githubusercontent.com/shenhe304/portfolio/6d458cd8b58763509a67e34ad1643cdf7330fce2/assets/img/icon-arrow.svg") no-repeat;
+            background: url(../../assets/img/icon/icon-arrow-back.svg) no-repeat;
             width: 20px;
             height: 20px;
             top: 50%;
-            right: 15px;
+            left: 0;
             transform: translateY(-50%);
         }
         &:hover{

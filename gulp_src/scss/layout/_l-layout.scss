@@ -12,6 +12,10 @@ dl{
     margin-bottom: 20px;
 }
 
+dt{
+    font-weight: bold;
+}
+
 dl + img {
     margin-bottom: 50px;
 }
@@ -20,6 +24,7 @@ a{
     &:hover{
         color: #d2001a;
         transition: all 0.5s;
+        opacity: 0.3;
         cursor: pointer;
     }
 }
