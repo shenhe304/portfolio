@@ -17,15 +17,30 @@
             background-attachment: fixed;
         }
 
-        &__circleBottom{
+        &__maple{
             position: absolute;
-            bottom: 0;
-            left: -40px;
+            bottom: -70px;
+            left: -130px;
             width: 600px;
             height: 600px;
-            background: url(../../assets/img/common/bg-circle-bottom.png) no-repeat;
+            border-radius: 50%;
+            background: url(../../assets/img/common/bg-maple.png) no-repeat;
             background-size: contain;
-            z-index: -1;
+            background-attachment: fixed;
+            animation: bounce 3s ease-in-out forwards;
+            animation-iteration-count: infinite;
+        }
+
+        &__sakura{
+            position: absolute;
+            bottom: -70px;
+            left: -130px;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: url(../../assets/img/common/bg-sakura.png) no-repeat;
+            background-size: contain;
+            background-attachment: fixed;
             animation: bounce 3s ease-in-out forwards;
             animation-iteration-count: infinite;
         }
@@ -49,20 +64,36 @@
             background-attachment: fixed;
         }
 
-        &__circleBottom{
+        &__maple{
             position: absolute;
-            bottom: 0;
-            left: -90px;
-            width: 400px;
-            height: 400px;
-            background: url(../../assets/img/common/bg-circle-bottom.png) no-repeat;
+            bottom: -70px;
+            left: -130px;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: url(../../assets/img/common/bg-maple.png) no-repeat;
             background-size: contain;
-            z-index: -1;
+            background-attachment: fixed;
+            animation: bounce 3s ease-in-out forwards;
+            animation-iteration-count: infinite;
+        }
+
+        &__sakura{
+            position: absolute;
+            bottom: -70px;
+            left: -130px;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: url(../../assets/img/common/bg-sakura.png) no-repeat;
+            background-size: contain;
+            background-attachment: fixed;
             animation: bounce 3s ease-in-out forwards;
             animation-iteration-count: infinite;
         }
     }
 }
+
 
 @include sp {
     .p-backGround{
