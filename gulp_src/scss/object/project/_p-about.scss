@@ -18,28 +18,7 @@
             cursor: pointer;
             display: inline-block;
 
-            &:hover .p-about__desc--japanese{
-                display: inline-block;
-                top: -55px;
-                left: 50%;
-                transform: translateX(-50%);
-            }
-
-            &:hover .p-about__desc--english{
-                display: inline-block;
-                top: -55px;
-                left: 50%;
-                transform: translateX(-50%);
-            }
-
-            &:hover .p-about__desc--simplified{
-                display: inline-block;
-                top: -55px;
-                left: 50%;
-                transform: translateX(-50%);
-            }
-
-            &:hover .p-about__desc--traditional{
+            &:hover .p-about__desc{
                 display: inline-block;
                 top: -55px;
                 left: 50%;
