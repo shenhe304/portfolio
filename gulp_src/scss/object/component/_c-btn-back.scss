@@ -21,6 +21,7 @@
         &:hover::before{
             display: inline-block;
             background: url(../../assets/img/icon/icon-arrow-back-hover.svg) no-repeat;
+            opacity: 1;
         }
         
 
@@ -39,6 +40,7 @@
 
         &:hover::after{
             transform: scale(1, 1);
+            opacity: 1;
         }
     }
 }

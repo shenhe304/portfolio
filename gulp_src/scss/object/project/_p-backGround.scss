@@ -8,10 +8,9 @@
         &__circleTop{
             position: absolute;
             top: 570px;
-            left: -130px;
+            left: -50px;
             width: 560px;
             height: 560px;
-            border-radius: 50%;
             background: url(../../assets/img/common/bg-circle-top.png) no-repeat;
             background-size: contain;
             background-attachment: fixed;
@@ -30,7 +29,7 @@
         &__sakura{
             position: absolute;
             bottom: -29px;
-            left: -290px;
+            left: -200px;
             width: 700px;
             height: 700px;
             background: url(../../assets/img/common/bg-sakura.png) no-repeat;

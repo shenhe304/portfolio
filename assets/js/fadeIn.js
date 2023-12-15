@@ -1,6 +1,6 @@
 // fade-in
 document.addEventListener('DOMContentLoaded', function () {
-    var scrollAnimationElms = document.querySelectorAll('.js-scrollUp, .js-scrollLeft, .js-scrollRight, js-scrollSway');
+    var scrollAnimationElms = document.querySelectorAll('.js-scrollUp, .js-scrollLeft, .js-scrollRight, .js-scrollSway');
   
     var scrollAnimationFunc = function () {
       for (var i = 0; i < scrollAnimationElms.length; i++) {
