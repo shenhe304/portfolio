@@ -9,6 +9,10 @@
         display: flex;
         align-items: center;
 
+        &:hover{
+            opacity: 1;
+        }
+
         &::before{
             position: absolute;
             content: "";
@@ -21,7 +25,6 @@
         &:hover::before{
             display: inline-block;
             background: url(../../assets/img/icon/icon-arrow-back-hover.svg) no-repeat;
-            opacity: 1;
         }
         
 
@@ -40,7 +43,6 @@
 
         &:hover::after{
             transform: scale(1, 1);
-            opacity: 1;
         }
     }
 }
