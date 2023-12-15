@@ -13,9 +13,8 @@
         &__link{
             &:hover{
                 box-shadow: none;
-                transform: scale(0.8);
+                transform: scale(0.9);
                 transition: 0.8s;
-                opacity: 1;
             }
         }
         &__img{
@@ -24,7 +23,6 @@
 
             &:hover{
                 box-shadow: none;
-                filter: blur(3px);
             }
         }
         &__text{
@@ -57,10 +55,6 @@
         &__img{
             box-shadow: 1px 1px 10px rgba(51, 51, 51, 0.5);
             margin-bottom: 5px;
-
-            &:hover{
-                filter: blur(3px);
-            }
         }
 
         &__text{
