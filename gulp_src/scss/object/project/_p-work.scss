@@ -3,9 +3,7 @@
 @include pc {
     .p-work{
         &__top{
-            padding:110px 0 50px;
-            background: #D2001A;
-            color: #fff;
+            padding-top:110px;
         }
         &__mainVisual{
             width: 800px;
