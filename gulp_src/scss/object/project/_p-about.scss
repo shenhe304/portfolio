@@ -23,17 +23,22 @@
                 top: -55px;
                 left: 50%;
                 transform: translateX(-50%);
+
+                &--multiple{
+                    top: -90px;
+                }
             }
         }
         &__desc{
             display: none;
             position: absolute;
             padding: 10px 20px;
-            font-size: 16px;
             color: #fff;
+            font-size: 16px;
+            line-height: 1.3;
+            text-align: center;
             border-radius: 5px;
             background: #333;
-            text-align: center;
 
             &::before{
                 content: "";
