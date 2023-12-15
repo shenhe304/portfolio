@@ -3,7 +3,6 @@
 @include pc {
     .p-backGround{
         position: relative;
-        overflow: hidden;
 
         &__circleTop{
             position: absolute;
@@ -11,6 +10,7 @@
             left: -130px;
             width: 560px;
             height: 560px;
+            border-radius: 50%;
             background: url(../../assets/img/common/bg-circle-top.png) no-repeat;
             background-size: contain;
             background-attachment: fixed;
@@ -42,7 +42,6 @@
 @include tab {
     .p-backGround{
         position: relative;
-        overflow: hidden;
 
         &__circleTop{
             position: absolute;
@@ -86,7 +85,6 @@
 @include sp {
     .p-backGround{
         position: relative;
-        overflow: hidden;
 
         &__circleTop{
             position: absolute;
@@ -128,11 +126,3 @@
     }
 }
 
-@keyframes sway {
-    from {
-        transform: translateX(0px) rotate(0deg);
-    }
-    to {
-        transform: translateX(200px) rotate(-45deg);
-    }
-}
