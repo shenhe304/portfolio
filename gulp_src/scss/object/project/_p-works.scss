@@ -11,8 +11,6 @@
             width: calc(100% / 4 - 20px);
         }
         &__link{
-            overflow: hidden;
-
             &:hover{
                 box-shadow: none;
                 transform: scale(0.8);

@@ -3,6 +3,7 @@
 @include pc {
     .p-backGround{
         position: relative;
+        overflow: hidden;
 
         &__circleTop{
             position: absolute;
@@ -42,6 +43,7 @@
 @include tab {
     .p-backGround{
         position: relative;
+        overflow: hidden;
 
         &__circleTop{
             position: absolute;
@@ -85,6 +87,7 @@
 @include sp {
     .p-backGround{
         position: relative;
+        overflow: hidden;
 
         &__circleTop{
             position: absolute;
