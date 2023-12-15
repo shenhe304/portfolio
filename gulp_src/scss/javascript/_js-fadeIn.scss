@@ -61,6 +61,11 @@ opacity: 1.0;
 }
 
 // sway
+.js-scrollSway.on  {
+    animation: sway 3s ease-in-out forwards;
+}
+
+
 @keyframes sway {
     from {
         transform: translateX(0px) rotate(0deg);

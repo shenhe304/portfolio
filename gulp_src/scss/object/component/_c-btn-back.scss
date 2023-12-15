@@ -16,11 +16,11 @@
             width: 60px;
             height: 13px;
             left: 9px;
+        }
 
-            .c-btn-back:hover & {
-                display: inline-block;
-                background: url(../../assets/img/icon/icon-arrow-back-hover.svg) no-repeat;
-            }
+        &:hover::before{
+            display: inline-block;
+            background: url(../../assets/img/icon/icon-arrow-back-hover.svg) no-repeat;
         }
         
 
@@ -35,10 +35,10 @@
             transition: all .3s;
             transform: scale(0, 1);
             transform-origin: left top;
+        }
 
-            .c-btn-back:hover & {
-                transform: scale(1, 1);
-            }
+        &:hover::after{
+            transform: scale(1, 1);
         }
     }
 }
