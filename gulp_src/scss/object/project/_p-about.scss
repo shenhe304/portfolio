@@ -18,31 +18,52 @@
             cursor: pointer;
             display: inline-block;
 
-            &:hover .p-about__desc{
+            &:hover .p-about__desc--japanese{
                 display: inline-block;
-                top: -70px;
-                left: -30px;
+                top: -55px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            &:hover .p-about__desc--english{
+                display: inline-block;
+                top: -55px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            &:hover .p-about__desc--simplified{
+                display: inline-block;
+                top: -55px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            &:hover .p-about__desc--traditional{
+                display: inline-block;
+                top: -55px;
+                left: 50%;
+                transform: translateX(-50%);
             }
         }
         &__desc{
             display: none;
             position: absolute;
-            padding: 10px;
-            font-size: 12px;
-            line-height: 1.6em;
+            padding: 10px 20px;
+            font-size: 16px;
             color: #fff;
             border-radius: 5px;
-            background: #000;
-            width: 100px;
+            background: #333;
+            text-align: center;
 
             &::before{
                 content: "";
                 position: absolute;
                 top: 100%;
                 left: 50%;
-                border: 15px solid transparent;
-                border-top: 15px solid #000;
-                margin-left: -15px;
+                border: 5px solid rgba(0,0,0,0);
+                border-top: 11px solid #333;
+                transform: translateX(-50%);
             }
         }
         &__icon{

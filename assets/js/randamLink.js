@@ -1,5 +1,5 @@
    // ページが読み込まれたときに実行する関数
-   document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function () {
     // /works/ ディレクトリ内のページリンクを取得
     var worksLinks = document.querySelectorAll('a[href^="/works/"]');
 
@@ -7,7 +7,7 @@
     var randomLink = getRandomLink(worksLinks);
 
     // ランダムなリンクを表示する要素を取得
-    var randomWorksLinkContainer = document.getElementById('randomWorksLink');
+    var randomWorksLinkContainer = document.getElementById('randomLinks');
 
     // リンクを作成して表示
     var linkElement = document.createElement('a');
