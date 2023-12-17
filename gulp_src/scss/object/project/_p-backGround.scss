@@ -35,20 +35,19 @@
         &__maple{
             position: absolute;
             top: 45%;
-            right: -150px;
-            width: 650px;
-            height: 650px;
+            right: -95px;
+            width: 550px;
+            height: 550px;
             background: url(../../assets/img/common/bg-maple.png) no-repeat;
             background-size: contain;
         }
 
         &__sakura{
             position: absolute;
-            bottom: -70px;
-            left: -130px;
-            width: 600px;
-            height: 600px;
-            border-radius: 50%;
+            bottom: 52px;
+            left: -288px;
+            width: 400px;
+            height: 400px;
             background: url(../../assets/img/common/bg-sakura.png) no-repeat;
             background-size: contain;
         }
@@ -63,7 +62,7 @@
 
         &__maple{
             position: absolute;
-            bottom: 1130px;
+            bottom: 13%;
             right: -40px;
             width: 200px;
             height: 200px;
@@ -73,13 +72,12 @@
 
         &__sakura{
             position: absolute;
-            bottom: 162px;
+            bottom: 126px;
             left: -241px;
             width: 200px;
             height: 200px;
             background: url(../../assets/img/common/bg-sakura.png) no-repeat;
-            background-size: contain;
-            z-index: -1;        
+            background-size: contain;      
         }
     }
 }
