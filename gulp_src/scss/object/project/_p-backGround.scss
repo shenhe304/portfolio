@@ -5,17 +5,6 @@
         position: relative;
         overflow: hidden;
 
-        &__circleTop{
-            position: absolute;
-            top: 570px;
-            left: -50px;
-            width: 560px;
-            height: 560px;
-            background: url(../../assets/img/common/bg-circle-top.png) no-repeat;
-            background-size: contain;
-            background-attachment: fixed;
-        }
-
         &__maple{
             position: absolute;
             top: 45%;
@@ -42,18 +31,6 @@
     .p-backGround{
         position: relative;
         overflow: hidden;
-
-        &__circleTop{
-            position: absolute;
-            top: 465px;
-            left: -180px;
-            width: 500px;
-            height: 500px;
-            border-radius: 50%;
-            background: url(../../assets/img/common/bg-circle-top.png) no-repeat;
-            background-size: contain;
-            background-attachment: fixed;
-        }
 
         &__maple{
             position: absolute;
@@ -84,18 +61,6 @@
     .p-backGround{
         position: relative;
         overflow: hidden;
-
-        &__circleTop{
-            position: absolute;
-            top: 700px;
-            left: -80px;
-            width: 350px;
-            height: 350px;
-            border-radius: 50%;
-            background: url(../../assets/img/common/bg-circle-top.png) no-repeat;
-            background-size: contain;
-            background-attachment: fixed;
-        }
 
         &__maple{
             position: absolute;
