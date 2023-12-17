@@ -44,6 +44,11 @@ a{
     }
 }
 
+a + dl{
+    margin-bottom: 30px;
+}
+
+
 @include pc{
     section{
         margin-bottom: 100px;

@@ -42,10 +42,6 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-
-            &--small{
-                max-width: 720px;
-            }
         }
                 
         &__logo{
@@ -63,20 +59,16 @@
         z-index: 100;
 
         &__wrap{
-            max-width: 355px;
-            height: 60px;
+            height: 75px;
             margin: 0 auto;
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: space-between;
-
-            &--small{
-                max-width: 355px;
-            }
+            justify-content: space-evenly;
         }
 
         &__logo{
-            width: 80px;
+            width: 60px;
         }
     } 
 }

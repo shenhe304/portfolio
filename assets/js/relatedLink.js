@@ -12,7 +12,7 @@
 //   var numRelatedLinksToShow = 3;
 
 //   // ページ上の関連リンクリストの要素を取得
-//   var relatedWorksList = document.getElementById("related-works-list");
+//   var relatedWorksList = document.getElementById("js-related-works__list");
 
 //   // ランダムに関連リンクを選択
 //   var shuffledWorks = relatedWorks.sort(() => Math.random() - 0.5).slice(0, numRelatedLinksToShow);
@@ -36,22 +36,31 @@
 document.addEventListener("DOMContentLoaded", function () {
   // 関連リンクのデータ（各ページのURLやタイトル、サムネイル画像など）をここで定義する
   var relatedWorks = [
-    { url: "/works/web-syohin.html", title: "The official website design", thumbnail: "../assets/img/top/img-work-syohin.jpg" },
-    { url: "/works/web-rikon.html", title: "The design of Landing Page", thumbnail: "../assets/img/top/img-work-rikon.jpg" },
-    { url: "/works/ui-sign-up.html", title: "The design of sign up", thumbnail: "../assets/img/top/img-work-signup.jpg" },
-    { url: "/works/ui-jiko.html", title: "Banner on the blog", thumbnail: "../assets/img/top/img-work-jiko01.jpg" },
-    { url: "/works/ui-credit-card.html", title: "Payment of online javascript school", thumbnail: "../assets/img/top/img-work-credit.jpg" },
-    { url: "/works/ui-calculator.html", title: "Calculator", thumbnail: "../assets/img/top/img-work-calculator.jpg" },
+    { url: "../../works/web-syohin.html", title: "The official website design", thumbnail: "../assets/img/top/img-work-syohin.jpg" },
+    { url: "../../works/web-rikon.html", title: "The design of Landing Page", thumbnail: "../assets/img/top/img-work-rikon.jpg" },
+    { url: "../../works/ui-sign-up.html", title: "The design of sign up", thumbnail: "../assets/img/top/img-work-signup.jpg" },
+    { url: "../../works/ui-jiko.html", title: "Banner on the blog", thumbnail: "../assets/img/top/img-work-jiko01.jpg" },
+    { url: "../../works/ui-credit-card.html", title: "Payment of online javascript school", thumbnail: "../assets/img/top/img-work-credit.jpg" },
+    { url: "../../works/ui-calculator.html", title: "Calculator", thumbnail: "../assets/img/top/img-work-calculator.jpg" },
   ];
 
   // ページに表示する関連リンクの数
   var numRelatedLinksToShow = 3;
 
   // ページ上の関連リンクリストの要素を取得
-  var relatedWorksList = document.getElementById("related-works-list");
+  var relatedWorksList = document.getElementById("js-related-works__list");
 
-  // ランダムに関連リンクを選択
-  var shuffledWorks = relatedWorks.sort(() => Math.random() - 0.5).slice(0, numRelatedLinksToShow);
+// ランダムに関連リンクを選択
+var shuffledWorks = shuffleArray(relatedWorks).slice(0, numRelatedLinksToShow);
+
+// Fisher-Yates シャッフル関数
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
 
   // リストに関連リンクを追加
   shuffledWorks.forEach(function (work) {
