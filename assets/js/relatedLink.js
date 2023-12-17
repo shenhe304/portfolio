@@ -38,8 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var relatedWorks = [
     { url: "/works/web-syohin.html", title: "The official website design", thumbnail: "../assets/img/top/img-work-syohin.jpg" },
     { url: "/works/web-rikon.html", title: "The design of Landing Page", thumbnail: "../assets/img/top/img-work-rikon.jpg" },
-    { url: "/works/web-portfolio.html", title: "Work 3", thumbnail: "path/to/thumbnail3.jpg" },
-    { url: "/works/ui-sign-up.html", title: "The design of sign up", thumbnail: "../assets/img/works/img-work-signup.jpg" },
+    { url: "/works/ui-sign-up.html", title: "The design of sign up", thumbnail: "../assets/img/top/img-work-signup.jpg" },
     { url: "/works/ui-jiko.html", title: "Banner on the blog", thumbnail: "../assets/img/top/img-work-jiko01.jpg" },
     { url: "/works/ui-credit-card.html", title: "Payment of online javascript school", thumbnail: "../assets/img/top/img-work-credit.jpg" },
     { url: "/works/ui-calculator.html", title: "Calculator", thumbnail: "../assets/img/top/img-work-calculator.jpg" },
