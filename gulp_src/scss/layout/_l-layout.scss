@@ -19,6 +19,14 @@ dt{
     font-weight: bold;
 }
 
+dd{
+    margin-bottom: 30px;
+    
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+
 dl + img {
     margin-bottom: 50px;
 }
