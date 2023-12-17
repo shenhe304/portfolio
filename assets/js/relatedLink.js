@@ -1,12 +1,13 @@
+// JavaScript: relatedLink.js
+
 document.addEventListener("DOMContentLoaded", function () {
   var relatedWorks = [
-    { url: "../works/web-syohin.html", title: "The official website design", thumbnail: "../assets/img/top/img-work-syohin.jpg" },
-    { url: "../works/web-rikon.html", title: "The design of Landing Page", thumbnail: "../assets/img/top/img-work-rikon.jpg" },
-    { url: "../works/ui-sign-up.html", title: "The design of sign up", thumbnail: "../assets/img/top/img-work-signup.jpg" },
-    { url: "../works/ui-jiko.html", title: "Banner on the blog", thumbnail: "../assets/img/top/img-work-jiko01.jpg" },
-    { url: "../works/ui-credit-card.html", title: "Payment of online javascript school", thumbnail: "../assets/img/top/img-work-credit.jpg" },
-    { url: "../works/ui-calculator.html", title: "Calculator", thumbnail: "../assets/img/top/img-work-calculator.jpg" },
-    { url: "../works/ui-bkan-modal.html", title: "Calculator", thumbnail: "img-work-bkanModal.jpg" },
+    { url: "web-syohin.html", title: "The official website design", thumbnail: "path/to/img-work-syohin.jpg" },
+    { url: "web-rikon.html", title: "The design of Landing Page", thumbnail: "path/to/img-work-rikon.jpg" },
+    { url: "ui-sign-up.html", title: "The design of sign up", thumbnail: "path/to/img-work-signup.jpg" },
+    { url: "ui-jiko.html", title: "Banner on the blog", thumbnail: "path/to/img-work-jiko01.jpg" },
+    { url: "ui-credit-card.html", title: "Payment of online javascript school", thumbnail: "path/to/img-work-credit.jpg" },
+    { url: "ui-calculator.html", title: "Calculator", thumbnail: "path/to/img-work-calculator.jpg" },
   ];
 
   var numRelatedLinksToShow = 3;
@@ -48,8 +49,3 @@ document.addEventListener("DOMContentLoaded", function () {
     console.error("Error: Element with id 'js-related-works__list' not found");
   }
 });
-
-
-
-
-
