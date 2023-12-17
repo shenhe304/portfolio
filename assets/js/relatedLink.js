@@ -36,12 +36,12 @@
 document.addEventListener("DOMContentLoaded", function () {
   // 関連リンクのデータ（各ページのURLやタイトル、サムネイル画像など）をここで定義する
   var relatedWorks = [
-    { url: "../../works/web-syohin.html", title: "The official website design", thumbnail: "../assets/img/top/img-work-syohin.jpg" },
-    { url: "../../works/web-rikon.html", title: "The design of Landing Page", thumbnail: "../assets/img/top/img-work-rikon.jpg" },
-    { url: "../../works/ui-sign-up.html", title: "The design of sign up", thumbnail: "../assets/img/top/img-work-signup.jpg" },
-    { url: "../../works/ui-jiko.html", title: "Banner on the blog", thumbnail: "../assets/img/top/img-work-jiko01.jpg" },
-    { url: "../../works/ui-credit-card.html", title: "Payment of online javascript school", thumbnail: "../assets/img/top/img-work-credit.jpg" },
-    { url: "../../works/ui-calculator.html", title: "Calculator", thumbnail: "../assets/img/top/img-work-calculator.jpg" },
+    { url: "../works/web-syohin.html", title: "The official website design", thumbnail: "../assets/img/top/img-work-syohin.jpg" },
+    { url: "../works/web-rikon.html", title: "The design of Landing Page", thumbnail: "../assets/img/top/img-work-rikon.jpg" },
+    { url: "../works/ui-sign-up.html", title: "The design of sign up", thumbnail: "../assets/img/top/img-work-signup.jpg" },
+    { url: "../works/ui-jiko.html", title: "Banner on the blog", thumbnail: "../assets/img/top/img-work-jiko01.jpg" },
+    { url: "../works/ui-credit-card.html", title: "Payment of online javascript school", thumbnail: "../assets/img/top/img-work-credit.jpg" },
+    { url: "../works/ui-calculator.html", title: "Calculator", thumbnail: "../assets/img/top/img-work-calculator.jpg" },
   ];
 
   // ページに表示する関連リンクの数
@@ -73,10 +73,15 @@ function shuffleArray(array) {
     thumbnail.src = work.thumbnail;
     thumbnail.alt = "Thumbnail for " + work.title;
     thumbnail.className = "p-work__mainVisual";
+
+    thumbnail.onerror = function () {
+      console.error("Error loading image: " + work.thumbnail);
+    };
+
     link.appendChild(thumbnail);
-    
     link.textContent = work.title;
     listItem.appendChild(link);
     relatedWorksList.appendChild(listItem);
   });
 });
+

@@ -29,6 +29,9 @@
     .u-txtSmall{
         font-size: 14px;
     }
+    .u-center-pc{
+        text-align: center;
+    }
 }
 
 @include tab{
@@ -41,6 +44,9 @@
     .u-txtSmall{
         font-size: 14px;
     }
+    .u-center-tab{
+        text-align: center;
+    }
 }
 
 @include sp{
@@ -52,6 +58,9 @@
     }
     .u-txtSmall{
         font-size: 12px;
+    }
+    .u-center-sp{
+        text-align: center;
     }
 }
 

@@ -1,13 +1,11 @@
 @use "../../global/import"as *;
 
 @include pc {
-    .p-uiDesign{
-
+    .p-related{
         &__wrap{
             display: flex;
             align-items: center;
         }
-    
     }
 }
 

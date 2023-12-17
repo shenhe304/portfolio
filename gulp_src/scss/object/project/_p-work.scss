@@ -24,24 +24,31 @@
             padding-top: 130px;
         }
         &__mainVisual{
-            width: 800px;
+            width: 720px;
             margin: 0 auto;
             border-radius: 10px;
         }
-    
+        &__h1{
+            width: 720px;
+            margin: 0 auto 20px;
+            text-align: center;
+        }
     }
 }
 
 @include sp {
     .p-work{
         &__top{
-            max-width: 355px;
             padding-top: 100px;
-            margin: 0 auto;
         }
         &__mainVisual{
             width: 100%;
             border-radius: 10px;
+        }
+        &__h1{
+            width: 720px;
+            margin: 0 auto 20px;
+            text-align: center;
         }
     }
 }
