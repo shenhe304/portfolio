@@ -24,8 +24,9 @@
             padding-top: 130px;
         }
         &__mainVisual{
-            width: 80%;
+            width: 800px;
             margin: 0 auto;
+            border-radius: 10px;
         }
     
     }
@@ -34,11 +35,13 @@
 @include sp {
     .p-work{
         &__top{
+            max-width: 355px;
             padding-top: 100px;
+            margin: 0 auto;
         }
         &__mainVisual{
-            width: 80%;
-            margin: 0 auto;
+            width: 100%;
+            border-radius: 10px;
         }
     }
 }
