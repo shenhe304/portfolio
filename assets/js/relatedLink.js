@@ -31,13 +31,13 @@ document.addEventListener("DOMContentLoaded", function () {
     
       var thumbnail = document.createElement("img");
       // 画像の相対パスを修正
-      thumbnail.src = "../assets/img/top/" + work.thumbnail;
+      thumbnail.src = "../../assets/img/top/" + work.thumbnail;
       thumbnail.alt = "Thumbnail for " + work.title;
       thumbnail.className = "p-work__mainVisual";
     
       // Error handling for image loading
       thumbnail.onerror = function () {
-        console.error("Error loading image: ../assets/img/top/" + work.thumbnail);
+        console.error("Error loading image: ../../assets/img/top/" + work.thumbnail);
       };
     
       link.appendChild(thumbnail);
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
       listItem.appendChild(link);
       relatedWorksList.appendChild(listItem);
     });
-    
+
   } else {
     console.error("Error: Element with id 'js-related-works__list' not found");
   }
