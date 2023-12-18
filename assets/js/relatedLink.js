@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
       link.href = work.url;
 
       var thumbnail = document.createElement("img");
-      thumbnail.src = "https://shenhe304.github.io/portfolio/" + work.thumbnail;
+      thumbnail.src = "../assets/img/top/" + work.thumbnail;
       thumbnail.alt = "Thumbnail for " + work.title;
       thumbnail.className = "p-work__mainVisual";
 
