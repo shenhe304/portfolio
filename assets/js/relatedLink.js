@@ -1,4 +1,4 @@
-// JavaScript: relatedLink.js
+// relatedLink.js
 document.addEventListener("DOMContentLoaded", function () {
   var relatedWorks = [
     { url: "../works/web-syohin.html", title: "The official website design", thumbnail: "img-work-syohin.jpg" },
@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
       return array;
     }
 
-
     shuffledWorks.forEach(function (work) {
       var listItem = document.createElement("li");
       var link = document.createElement("a");
@@ -33,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var thumbnail = document.createElement("img");
       thumbnail.src = "../assets/img/top/" + work.thumbnail;
       thumbnail.alt = "Thumbnail for " + work.title;
-      thumbnail.className = "p-work__mainVisual";
+      thumbnail.className = "p-related__thumbnail";
 
       // Error handling for image loading
       thumbnail.onerror = function () {
