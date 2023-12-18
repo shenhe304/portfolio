@@ -1,12 +1,12 @@
 // JavaScript: relatedLink.js
 document.addEventListener("DOMContentLoaded", function () {
   var relatedWorks = [
-    { url: "../works/web-syohin.html", title: "The official website design", thumbnail: "../assets/img/top/img-work-syohin.jpg" },
-    { url: "../works/web-rikon.html", title: "The design of Landing Page", thumbnail: "../assets/img/top/img-work-rikon.jpg" },
-    { url: "../works/ui-sign-up.html", title: "The design of sign up", thumbnail: "../assets/img/top/img-work-signup.jpg" },
-    { url: "../works/ui-jiko.html", title: "Banner on the blog", thumbnail: "../assets/img/top/img-work-jiko01.jpg" },
-    { url: "../works/ui-credit-card.html", title: "Payment of online javascript school", thumbnail: "../assets/img/top/img-work-credit.jpg" },
-    { url: "../works/ui-calculator.html", title: "Calculator", thumbnail: "../assets/img/top/img-work-calculator.jpg" },
+    { url: "../works/web-syohin.html", title: "The official website design", thumbnail: "img-work-syohin.jpg" },
+    { url: "../works/web-rikon.html", title: "The design of Landing Page", thumbnail: "img-work-rikon.jpg" },
+    { url: "../works/ui-sign-up.html", title: "The design of sign up", thumbnail: "img-work-signup.jpg" },
+    { url: "../works/ui-jiko.html", title: "Banner on the blog", thumbnail: "img-work-jiko01.jpg" },
+    { url: "../works/ui-credit-card.html", title: "Payment of online javascript school", thumbnail: "img-work-credit.jpg" },
+    { url: "../works/ui-calculator.html", title: "Calculator", thumbnail: "img-work-calculator.jpg" },
   ];
 
   var numRelatedLinksToShow = 3;
@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", function () {
       link.href = work.url;
 
       var thumbnail = document.createElement("img");
-      // 画像の相対パスを修正
       thumbnail.src = "../assets/img/top/" + work.thumbnail;
       thumbnail.alt = "Thumbnail for " + work.title;
       thumbnail.className = "p-work__mainVisual";
