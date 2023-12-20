@@ -1,0 +1,18 @@
+@use "../../global/import"as *;
+
+@include pc {
+    .p-related{
+        &__wrap{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+
+
+
+
+
+
+

@@ -2,86 +2,46 @@
 
 @include pc {
     .p-contact{
-        background: linear-gradient(-225deg, #ccc 0%, #fff 53%, #ccc 100%);
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 20px;
+        margin-bottom: 25px;
 
-        &__txt{
-            margin-bottom: 85px;
-        }
-        &__wrapper{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0 80px;
-        }
-
-        &__link{
-            box-shadow: 0 10px 18px #333;
-            display: inline-block;
-
-            &:hover{
-                position: relative;
-                top: 10px;
-                box-shadow: none;
-            }
+        &__icon{
+            width: 25px;
+            height: 25px;
         }
     }
 }
-
 
 @include tab {
     .p-contact{
-        background: linear-gradient(-225deg, #ccc 0%, #fff 53%, #ccc 100%);
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 20px;
+        margin-bottom: 20px;
 
-        &__txt{
-            margin-bottom: 85px;
-        }
-        &__wrapper{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0 60px;
-        }
-
-        &__link{
-            box-shadow: 0 10px 18px #333;
-            display: inline-block;
-
-            &:hover{
-                position: relative;
-                top: 10px;
-                box-shadow: none;
-            }
+        &__icon{
+            width: 25px;
+            height: 25px;
         }
     }
 }
-
 
 @include sp {
     .p-contact{
-        background: linear-gradient(-225deg, #ccc 0%, #fff 53%, #ccc 100%);
-        text-align: center;
-
-        &__txt{
-            margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 30px;
+        margin-bottom: 20px;
+        
+        &__icon{
+            width: 25px;
+            height: 25px;
         }
-
-        &__link{
-            margin-bottom: 25px;
-            box-shadow: 0 5px 10px #333;
-            display: inline-block;
-
-            &:last-of-type{
-                margin-bottom: 0;
-            }
-
-            &:hover{
-                position: relative;
-                top: 10px;
-                box-shadow: none;
-            }
-        }
-
     }
 }
+

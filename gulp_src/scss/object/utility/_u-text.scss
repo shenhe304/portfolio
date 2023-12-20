@@ -13,24 +13,54 @@
     font-weight: bold;
 }
 .u-primary{
-    color: #c11515;
+    color: #d2001a;
 }
 .u-secondary{
     color: #fee330;
 }
 
 @include pc{
-    .u-note{
-        font-size: 16px;
+    .u-txtLarge{
+        font-size: 24px;
     }
-}
-@include tab{
-    .u-note{
-        font-size: 15px;
+    .u-txtMedium{
+        font-size: 18px;
     }
-}
-@include sp{
-    .u-note{
+    .u-txtSmall{
         font-size: 14px;
     }
+    .u-center-pc{
+        text-align: center;
+    }
 }
+
+@include tab{
+    .u-txtLarge{
+        font-size: 24px;
+    }
+    .u-txtMedium{
+        font-size: 18px;
+    }
+    .u-txtSmall{
+        font-size: 14px;
+    }
+    .u-center-tab{
+        text-align: center;
+    }
+}
+
+@include sp{
+    .u-txtLarge{
+        font-size: 18px;
+    }
+    .u-txtMedium{
+        font-size: 17px;
+    }
+    .u-txtSmall{
+        font-size: 12px;
+    }
+    .u-center-sp{
+        text-align: center;
+    }
+}
+

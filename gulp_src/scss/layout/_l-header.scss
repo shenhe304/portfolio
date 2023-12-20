@@ -1,0 +1,74 @@
+@use "../global/import"as *;
+
+@include pc {
+    .l-header{
+        width: 100%;
+        box-shadow: 0 2px 10px 0 rgba(51,51,51,.25);
+        background: #fff;
+        position: fixed;
+        z-index: 100;
+
+        &__wrap{
+            max-width: 1190px;
+            height: 60px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &--small{
+                max-width: 1000px;
+            }
+        }
+
+        &__logo{
+            width: 96px;
+        }
+    } 
+}
+
+@include tab {
+    .l-header{
+        width: 100%;
+        box-shadow: 0 2px 10px 0 rgba(51,51,51,.25);
+        background: #fff;
+        position: fixed;
+        z-index: 100;
+
+        &__wrap{
+            max-width: 720px;
+            height: 60px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+                
+        &__logo{
+            width: 94px;
+        }
+    } 
+}
+
+@include sp {
+    .l-header{
+        width: 100%;
+        box-shadow: 0 2px 10px 0 rgba(51,51,51,.25);
+        background: #fff;
+        position: fixed;
+        z-index: 100;
+
+        &__wrap{
+            height: 75px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        &__logo{
+            width: 60px;
+        }
+    } 
+}
