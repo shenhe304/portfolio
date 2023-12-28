@@ -1,7 +1,7 @@
 @use "../../global/import"as *;
 
 @include pc {
-    .p-work{
+    .p-work-details{
         &__top{
             padding-top:110px;
         }
@@ -19,7 +19,7 @@
 }
 
 @include tab {
-    .p-work{
+    .p-work-details{
         &__top{
             padding-top: 130px;
         }
@@ -37,7 +37,7 @@
 }
 
 @include sp {
-    .p-work{
+    .p-work-details{
         &__top{
             padding-top: 100px;
         }
