@@ -7,13 +7,18 @@
         }
         &__mainVisual{
             width: 800px;
-            margin: 0 auto;
+            margin: 0 auto 40px;
             border-radius: 10px;
         }
         &__h1{
             width: 800px;
             margin: 0 auto 20px;
             text-align: center;
+        }
+        &__wrap{
+            display: flex;
+            justify-content: center;
+            gap: 0 30px;
         }
     }
 }
