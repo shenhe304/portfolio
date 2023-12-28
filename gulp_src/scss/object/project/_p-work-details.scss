@@ -30,13 +30,18 @@
         }
         &__mainVisual{
             width: 720px;
-            margin: 0 auto;
+            margin: 0 auto 40px;
             border-radius: 10px;
         }
         &__h1{
             width: 720px;
             margin: 0 auto 20px;
             text-align: center;
+        }
+        &__wrap{
+            display: flex;
+            justify-content: center;
+            gap: 0 30px;
         }
     }
 }
@@ -48,10 +53,10 @@
         }
         &__mainVisual{
             width: 100%;
+            margin-bottom: 30px;
             border-radius: 10px;
         }
         &__h1{
-            width: 355px;
             margin: 0 auto 20px;
             text-align: center;
         }
