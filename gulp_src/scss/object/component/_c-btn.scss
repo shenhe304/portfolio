@@ -12,8 +12,11 @@
             content: "";
             position: absolute;
             background: url(../../assets/img/icon/icon-arrow-btn.svg) no-repeat;
-            width: 9px;
-            height: 10px;
+            width: 12px;
+            height: 12px;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
         }
     }
 }
