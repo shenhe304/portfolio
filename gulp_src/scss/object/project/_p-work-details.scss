@@ -7,7 +7,7 @@
             background: #EFEFEF;
         }
         &__mainVisual{
-            width: 800px;
+            width: 1000px;
             margin: 0 auto 40px;
             border-radius: 10px;
         }
@@ -51,7 +51,7 @@
 @include sp {
     .p-work-details{
         &__top{
-            padding-top: 100px;
+            padding: 100px 0 30px;
             background: #EFEFEF;
         }
         &__mainVisual{
