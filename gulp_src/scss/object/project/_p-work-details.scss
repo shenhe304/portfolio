@@ -3,8 +3,8 @@
 @include pc {
     .p-work-details{
         &__top{
-            padding-top:110px;
-            background: #EFEFEF;
+            padding: 110px 0 40px;
+            background: #efefef;
         }
         &__mainVisual{
             width: 1000px;
@@ -27,8 +27,8 @@
 @include tab {
     .p-work-details{
         &__top{
-            padding-top: 130px;
-            background: #EFEFEF;
+            padding: 110px 0 30px;
+            background: #efefef;
         }
         &__mainVisual{
             width: 720px;
@@ -52,7 +52,7 @@
     .p-work-details{
         &__top{
             padding: 100px 0 30px;
-            background: #EFEFEF;
+            background: #efefef;
         }
         &__mainVisual{
             width: 100%;
