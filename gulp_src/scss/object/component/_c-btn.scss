@@ -3,7 +3,7 @@
 @include pc{
     .c-btn{
         width: 280px;
-        padding: 20px 0;
+        padding: 15px 0;
         color: #fff;
         text-align: center;
         background: #D2001A;
@@ -25,8 +25,8 @@
 
 @include tab{
     .c-btn{
-        width: 280px;
-        padding: 20px 0;
+        width: 100%;
+        padding: 15px 0;
         color: #fff;
         text-align: center;
         background: #D2001A;
@@ -48,11 +48,11 @@
 
 @include sp{
     .c-btn{
-        width: 280px;
-        padding: 20px 0;
+        width: 100%;
+        padding: 15px 0;
         color: #fff;
         text-align: center;
-        background: #D2001A;
+        background: #d2001a;
         border-radius: 6px;
         position: relative;
 

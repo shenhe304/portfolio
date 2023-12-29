@@ -11,10 +11,17 @@
             &:last-child{
                 margin-bottom: 0;
             }
+            &--reverse{
+                flex-direction: row-reverse;
+            }
         }
         &__img{
             width: 595px;
             border-radius: 6px 0 0 6px;
+
+            &--reverse{
+                border-radius: 0 6px 6px 0
+            }
         }
         &__link{
             display: flex;
@@ -26,6 +33,10 @@
             height: 413px;
             padding: 30px 50px;
             border-radius: 0 6px 6px 0;
+
+            &--reverse{
+                border-radius: 6px 0 0 6px
+            }
 
             &--rikon{
                 background-color: #feb9b9;
@@ -49,22 +60,33 @@
             &:last-child{
                 margin-bottom: 0;
             }
+            &--reverse{
+                flex-direction: row-reverse;
+            }
         }
         &__img{
             width: 360px;
             border-radius: 6px 0 0 6px;
+
+            &--reverse{
+                border-radius: 0 6px 6px 0
+            }
         }
         &__link{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 40px 0;
+            gap: 20px 0;
             width: 360px;
             height: 250px;
-            padding: 30px 50px;
+            padding: 40px 50px;
             text-align: center;
             border-radius: 0 6px 6px 0;
+
+            &--reverse{
+                border-radius: 6px 0 0 6px
+            }
 
             &--rikon{
                 background-color: #feb9b9;
@@ -84,6 +106,9 @@
 
             &:last-child{
                 margin-bottom: 0;
+            }
+            &--reverse{
+                flex-direction: column;
             }
         }
         &__img{
