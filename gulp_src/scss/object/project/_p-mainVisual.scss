@@ -4,8 +4,11 @@
     .p-mainVisual{
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding-top: 280px;
+        padding-top: 100px;
+
+        &__text{
+            width: 100%;
+        }
     }
 }
 
@@ -13,18 +16,24 @@
     .p-mainVisual{
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding-top: 100px;
+        padding-top: 80px;
+
+        &__text{
+            width: 100%;
+        }
     }
 }
 
 @include sp {
     .p-mainVisual{
         display: flex;
-        align-items: center;
         flex-direction: column;
         align-items: center;
-        padding-top: 100px;
+        padding-top: 80px;
+
+        &__text{
+            width: 100%;
+        }
     }
 }
 

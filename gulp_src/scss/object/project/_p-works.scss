@@ -13,16 +13,19 @@
             }
         }
         &__img{
-            width: 400px;
+            width: 595px;
+            border-radius: 6px 0 0 6px;
         }
         &__link{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 400px;
-            height: 300px;
+            gap: 40px 0;
+            width: 595px;
+            height: 413px;
             padding: 30px 50px;
+            border-radius: 0 6px 6px 0;
 
             &--rikon{
                 background-color: #feb9b9;
@@ -35,7 +38,81 @@
     }
 }
 
+@include tab {
+    .p-works{
+        &__item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 60px;
 
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        &__img{
+            width: 595px;
+            border-radius: 6px 0 0 6px;
+        }
+        &__link{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px 0;
+            width: 595px;
+            height: 413px;
+            padding: 30px 50px;
+            border-radius: 0 6px 6px 0;
+
+            &--rikon{
+                background-color: #feb9b9;
+            }
+            &--syohin{
+                background-color: #E6E3DE;
+            }
+
+        }
+    }
+}
+
+@include sp {
+    .p-works{
+        &__item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 60px;
+
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        &__img{
+            width: 595px;
+            border-radius: 6px 0 0 6px;
+        }
+        &__link{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px 0;
+            width: 595px;
+            height: 413px;
+            padding: 30px 50px;
+            border-radius: 0 6px 6px 0;
+
+            &--rikon{
+                background-color: #feb9b9;
+            }
+            &--syohin{
+                background-color: #E6E3DE;
+            }
+
+        }
+    }
+}
 
 
 
