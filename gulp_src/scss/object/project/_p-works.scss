@@ -51,7 +51,7 @@
             }
         }
         &__img{
-            width: 595px;
+            width: 360px;
             border-radius: 6px 0 0 6px;
         }
         &__link{
@@ -60,9 +60,10 @@
             justify-content: center;
             align-items: center;
             gap: 40px 0;
-            width: 595px;
-            height: 413px;
+            width: 360px;
+            height: 250px;
             padding: 30px 50px;
+            text-align: center;
             border-radius: 0 6px 6px 0;
 
             &--rikon{
@@ -79,29 +80,26 @@
 @include sp {
     .p-works{
         &__item{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 60px;
+            margin-bottom: 40px;
 
             &:last-child{
                 margin-bottom: 0;
             }
         }
         &__img{
-            width: 595px;
-            border-radius: 6px 0 0 6px;
+            width: 100%;
+            border-radius: 6px 6px 0 0;
         }
         &__link{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 40px 0;
-            width: 595px;
-            height: 413px;
-            padding: 30px 50px;
-            border-radius: 0 6px 6px 0;
+            gap: 20px 0;
+            width: 100%;
+            padding: 20px 30px;
+            text-align: center;
+            border-radius: 0 0 6px 6px;
 
             &--rikon{
                 background-color: #feb9b9;

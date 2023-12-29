@@ -16,12 +16,54 @@
             position: absolute;
             list-style: none;
             top: -50px;
-            animation: fall 4s linear infinite, rotate1 2s ease-in-out infinite alternate;
+            animation: fall-sakura 20s linear infinite, rotate1 10s ease-in-out infinite alternate;
+
+            &:nth-child(1) {
+                left: 0;
+                animation: fall-sakura 10s linear infinite, rotate1 5s ease-in-out infinite alternate;
+            }
+
+            &:nth-child(2) {
+                left: 5vw;
+                animation: fall-sakura 15s linear infinite, rotate1 5s ease-in-out infinite alternate;
+            }
+
+            &:nth-child(3) {
+                left: 15vw;
+                animation: fall-sakura 9s linear infinite, rotate1 3.5s ease-in-out infinite alternate;
+            }
+
+            &:nth-child(4) {
+                left: 30vw;
+                animation: fall-sakura 8s linear infinite, rotate2 4s ease-in-out infinite alternate;
+            }
+
+            &:nth-child(5) {
+                left: 40vw;
+                animation: fall-sakura 10s linear infinite, rotate1 4s ease-in-out infinite alternate;
+            }
+
+            &:nth-child(6) {
+                left: 55vw;
+                animation: fall-sakura 11s linear infinite, rotate2 3s ease-in-out infinite alternate;
+            }
+
+            &:nth-child(7) {
+                left: 65vw;
+                animation: fall-sakura 7s linear infinite, rotate2 3.5s ease-in-out infinite alternate;
+            }
+
+            &:nth-child(8) {
+                left: 50vw;
+                animation: fall-sakura 8s linear infinite, rotate1 3s ease-in-out infinite alternate;
+            }
+            
         }
     }
 }
 
-@keyframes fall {
+
+@keyframes fall-sakura {
 	to {
 		top: 120%;
 	}
@@ -42,37 +84,4 @@
 		transform: translateX(0px) rotate(0deg);
 	}
 }
-.p-mainVisual-sakura__item:nth-child(1) {
-	left: 0;
-	animation: fall 10s linear infinite, rotate1 3s ease-in-out infinite alternate;
-}
-.p-mainVisual-sakura__item:nth-child(2) {
-	left: 5vw;
-	animation: fall 15s linear infinite, rotate1 2s ease-in-out infinite alternate;
-}
-.p-mainVisual-sakura__item:nth-child(3) {
-	left: 15vw;
-	animation: fall 9s linear infinite, rotate1 3.5s ease-in-out infinite alternate;
-}
-.p-mainVisual-sakura__item:nth-child(4) {
-	left: 30vw;
-	animation: fall 8s linear infinite, rotate2 4s ease-in-out infinite alternate;
-}
-.p-mainVisual-sakura__item:nth-child(5) {
-	left: 40vw;
-	animation: fall 10s linear infinite, rotate1 4s ease-in-out infinite alternate;
-}
-.p-mainVisual-sakura__item:nth-child(6) {
-	left: 55vw;
-	animation: fall 11s linear infinite, rotate2 3s ease-in-out infinite alternate;
-}
-.p-mainVisual-sakura__item:nth-child(7) {
-	left: 65vw;
-	animation: fall 7s linear infinite, rotate2 3.5s ease-in-out infinite alternate;
-}
-.p-mainVisual-sakura__item:nth-child(8) {
-	left: 50vw;
-	animation: fall 7s linear infinite, rotate1 3s ease-in-out infinite alternate;
-}
-
 
