@@ -20,6 +20,14 @@
             right: 10px;
             transform: translateY(-50%);
         }
+
+        &:hover{
+            color: #d2001a;
+            background: #fff;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 1s;
+        }
     }
 }
 

@@ -21,6 +21,16 @@
             justify-content: center;
             gap: 0 30px;
         }
+        &__link{
+            &:hover{
+                position: relative;
+                top: 10px;
+                opacity: 1;
+                transition: all .5s;
+                cursor: pointer;
+                box-shadow: 3px 3px 30px #ccc;
+            }
+        }
     }
 }
 
