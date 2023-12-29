@@ -2,38 +2,13 @@
 
 @include pc {
     .p-works{
-        &__wrap{
-            display: flex;
-            flex-wrap: wrap;
-            gap: 50px 20px;
-        }
         &__item{
-            width: calc(100% / 4 - 20px);
+            display: flex;
         }
         &__link{
-            &:hover{
-                box-shadow: none;
-                transform: scale(0.9);
-                transition: 0.8s;
-            }
-        }
-        &__img{
-            box-shadow: 1px 1px 10px rgba(51, 51, 51, 0.5);
-            margin-bottom: 5px;
-
-            &:hover{
-                box-shadow: none;
-            }
-        }
-        &__text{
-            margin-bottom: 5px;
-            font-weight: 700;
-            line-height: 1.3;
-
-            &--small{
-                font-weight: inherit;
-                font-size: 14px;
-            }
+            width: 396px;
+            height: 400px;
+            background-color: #FEB9B9;
         }
     }
 }

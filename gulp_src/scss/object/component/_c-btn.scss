@@ -1,0 +1,19 @@
+@use "../../global/import"as *;
+
+@include pc{
+    .c-btn{
+        width: 280px;
+        padding: 20px 0;
+        background: #D2001A;
+        border-radius: 6px;
+        position: relative;
+
+        &::after{
+            content: "";
+            position: absolute;
+            background: url(../../assets/img/icon/icon-arrow-btn.svg) no-repeat;
+            width: 9px;
+            height: 10px;
+        }
+    }
+}

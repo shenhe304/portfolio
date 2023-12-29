@@ -6,13 +6,6 @@
         align-items: center;
         justify-content: space-between;
         padding-top: 280px;
-
-        &__circle{
-            width: 450px;
-            height: 450px;
-            background-color: #d2001a;
-            border-radius: 50%;
-        }
     }
 }
 
@@ -22,17 +15,6 @@
         align-items: center;
         justify-content: space-between;
         padding-top: 100px;
-
-        &__circle{
-            width: 300px;
-            height: 300px;
-            background-color: #d2001a;
-            border-radius: 50%;
-        }
-
-        &__text{
-            max-width: calc(100% /2 + 62px);
-        }
     }
 }
 
@@ -43,13 +25,6 @@
         flex-direction: column;
         align-items: center;
         padding-top: 100px;
-
-        &__circle{
-            width: 300px;
-            height: 300px;
-            background-color: #d2001a;
-            border-radius: 50%;
-        }
     }
 }
 
