@@ -18,8 +18,8 @@
         }
         &__wrap{
             display: flex;
-            justify-content: center;
-            gap: 0 30px;
+            justify-content: space-between;
+            align-items: center;
         }
         &__link{
             &:hover{
@@ -30,6 +30,9 @@
                 cursor: pointer;
                 box-shadow: 3px 3px 30px #ccc;
             }
+        }
+        &__item{
+            width: 50%;
         }
     }
 }
