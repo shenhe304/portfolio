@@ -16,18 +16,16 @@
             width: 480px;
         }
         &__link{
-            width:280px;
-            height:188px;
-            overflow:hidden;
-            margin:	10px 8px 10px 16px;
-            position:relative;
+            width: 480px;
+            overflow: hidden;
+            position: relative;
 
             &:hover .p-works__mask{
                 top:0;
             }
         }
         &__caption{
-            font-size:130%;
+            font-size: 29px;
             color:#fff;
             padding-top:80px;
             padding-left:100px;
@@ -48,7 +46,7 @@
             align-items: center;
             gap: 40px 0;
             width: 270px;
-            height: 330px;
+            height: 319px;
             padding: 30px;
         }
     }
