@@ -3,15 +3,16 @@
 @include pc {
     .p-mainVisual{
         padding-top: 150px;
+        background: url(../../../../assets/img/top/bg-mainVisual.png) no-repeat;
+        background-size: cover;
 
         &__text{
-            width: 100%;
+            position: absolute;
+            bottom: 40px;
+            z-index: 1;
         }
         &__wrap{
-            width: 70%;
-        }
-        &__img{
-            width: 70%;
+            width: 40%;
         }
     }
 }
@@ -25,9 +26,6 @@
         }
         &__wrap{
             width: 50%;
-        }
-        &__img{
-            width: 80%;
         }
     }
 }
@@ -44,9 +42,6 @@
         }
         &__wrap{
             width: 60%;
-        }
-        &__img{
-            width: 100%;
         }
     }
 }
