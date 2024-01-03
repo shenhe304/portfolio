@@ -2,8 +2,6 @@
 
 @include pc {
     .p-mainVisual{
-        display: flex;
-        align-items: center;
         padding-top: 150px;
 
         &__text{
@@ -14,15 +12,12 @@
         }
         &__img{
             width: 70%;
-            animation:80s linear infinite rotation;
         }
     }
 }
 
 @include tab {
     .p-mainVisual{
-        display: flex;
-        align-items: center;
         padding-top: 80px;
 
         &__text{
@@ -33,7 +28,6 @@
         }
         &__img{
             width: 80%;
-            animation:80s linear infinite rotation;
         }
     }
 }
@@ -53,14 +47,8 @@
         }
         &__img{
             width: 100%;
-            animation:80s linear infinite rotation;
         }
     }
-}
-
-@keyframes rotation{
-    0%{ transform:rotate(0);}
-    100%{ transform:rotate(360deg); }
 }
 
 
