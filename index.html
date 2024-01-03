@@ -25,8 +25,8 @@
         </header>
         
         <main>
-            <div class="l-container">
-                <section class="p-mainVisual">
+            <section class="p-mainVisual">
+                <div class="l-container">
                     <div class="p-mainVisual__text u-mb30-sp js-scrollLeft">
                         <p class="u-txtLarge u-mb0">Hello, I am Miwa Katagiri</p>
                         <h1 class="c-title-lv1 c-title-lv1--large">UI/UX Designer | web designer</h1>
@@ -36,10 +36,11 @@
                         <p>Enjoy my portfolio,<br>please click to my design and check details.</p>
                     </div>
                     <div class="p-mainVisual__wrap js-scrollRight">
-                        <img src="./assets/img/top/mv-hinomaru.png" alt="main visual" class="p-mainVisual__img u-mla">
+                        <img src="./assets/img/top/mv-hinomaru.png" alt="main visual" class="p-mainVisual__img">
                     </div>
-                </section>
-
+                </div>
+            </section>
+            <div class="l-container">
                 <section id="work" class="p-works">
                     <h2 class="c-title-lv2 c-title-lv2--large">WORKS</h2>
                     <p>Translating and redesigning work done in Japan into English, giving it a Western-style design. <br>Enjoy the differences between the Japanese version and the English version.</p>
@@ -64,12 +65,22 @@
                     </div>
 
                     <div class="p-works__item js-scrollUp">
-                        <img src="./assets/img/top/img-work-syohinJP.jpg" alt="The official website design for the launch of a new service in Japanese" class="p-works__img">
+                        <a href="./works/web-syohin-jp.html" class="p-works__link">
+                            <img src="./assets/img/top/img-work-syohinJP.jpg" alt="The official website design for the launch of a new service in Japanese" class="p-works__img">
+                            <div class="p-works__mask">
+                                <div class="p-works__caption">Japanese Design</div>
+                            </div>
+                        </a>
                         <div class="p-works__text u-bg-secondary u-white">
                             <h3 class="c-title-lv3">The official website</h3>
                             <p>The official website design for the launch of a new service.</p>
                         </div>
-                        <img src="./assets/img/top/img-work-syohinEN.jpg" alt="The official website design for the launch of a new service in English" class="p-works__img p-works__img--reverse">
+                        <a href="./works/web-syohin-en.html" class="p-works__link">
+                            <img src="./assets/img/top/img-work-syohinEN.jpg" alt="The official website design for the launch of a new service in English" class="p-works__img">
+                            <div class="p-works__mask">
+                                <div class="p-works__caption">English Design</div>
+                            </div>
+                        </a>
                     </div>
                 </section><!-- /.p-works -->
 
