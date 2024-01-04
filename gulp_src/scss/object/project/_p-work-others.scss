@@ -6,6 +6,25 @@
             display: flex;
             align-items: center;
         }
+        &__item{
+            display: flex;
+            justify-content: center;
+        }
+        &__img{
+            width: 450px;
+        }
+        &__box{
+            width: 450px;
+            height: 130px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &--rikonEN{
+                background-color: #115173;
+                color: #fff;
+            }
+        }
     }
 }
 

@@ -1,0 +1,21 @@
+@use "../../global/import"as *;
+
+@include pc {
+    .p-work-box{
+        &__rikonEN{
+            background-color: #115173;
+            color: #fff;
+        }
+        &__syohin{
+            background-color: #E6E3DE;
+        }
+    }
+}
+
+
+
+
+
+
+
+
