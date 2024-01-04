@@ -56,8 +56,10 @@
         }
         &__wrap{
             display: flex;
-            justify-content: center;
-            gap: 0 30px;
+            justify-content: space-between;
+        }
+        &__item:first-child{
+            width: 45%;
         }
     }
 }

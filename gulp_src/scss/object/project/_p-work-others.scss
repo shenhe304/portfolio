@@ -46,11 +46,11 @@
         }
         &__box{
             width: 350px;
-            height: 100px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding: 20px;
         }
         &__text{
             font-weight: bold;
@@ -58,21 +58,26 @@
     }
 }
 
+
 @include sp {
     .p-work-others{
 
+        &__wrap{
+            display: flex;
+            flex-direction: column;
+            gap: 40px 0;
+        }
         &__item{
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
-
         &__box{
-            height: 100px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding: 20px;
         }
         &__text{
             font-weight: bold;
