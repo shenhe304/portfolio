@@ -22,16 +22,6 @@
         position: relative;
         overflow: hidden;
 
-        &__maple{
-            position: absolute;
-            top: 45%;
-            right: -95px;
-            width: 350px;
-            height: 350px;
-            background: url(../../assets/img/common/bg-maple.png) no-repeat;
-            background-size: contain;
-        }
-
         &__sakura{
             position: absolute;
             bottom: 17px;
@@ -49,16 +39,6 @@
     .p-backGround{
         position: relative;
         overflow: hidden;
-
-        &__maple{
-            position: absolute;
-            bottom: 13%;
-            right: -40px;
-            width: 200px;
-            height: 200px;
-            background: url(../../assets/img/common/bg-maple.png) no-repeat;
-            background-size: contain;
-        }
 
         &__sakura{
             position: absolute;

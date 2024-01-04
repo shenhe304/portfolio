@@ -20,6 +20,10 @@
             overflow: hidden;
             position: relative;
 
+            &:hover{
+                opacity: 1;
+            }
+
             &:hover .p-works__mask{
                 top:0;
             }
@@ -31,7 +35,7 @@
             width: 100%;
             text-align: center;
             font-size: 29px;
-            color: #D10C0C;
+            color: #fff;
         }
         &__mask{
             width: 100%;

@@ -4,7 +4,7 @@
     .p-mainVisual{
         padding-top: 150px;
         background: url(../../assets/img/top/bg-mainVisual.png) no-repeat;
-        background-size: cover;
+        background-size: contain;
         position: relative;
         background-position: top 90% right 31%;
 
@@ -24,9 +24,9 @@
     .p-mainVisual{
         padding-top: 150px;
         background: url(../../assets/img/top/bg-mainVisual.png) no-repeat;
-        background-size: cover;
+        background-size: contain;
         position: relative;
-        background-position: top 50% right 40%;
+        background-position: top 90% right 31%;
 
         &__text{
             position: absolute;
@@ -44,9 +44,9 @@
     .p-mainVisual{
         padding-top: 150px;
         background: url(../../assets/img/top/bg-mainVisual.png) no-repeat;
-        background-size: cover;
+        background-size: contain;
         position: relative;
-        background-position: top 50% right 40%;
+        background-position: top 90% right 31%;
 
         &__text{
             position: absolute;
