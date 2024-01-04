@@ -2,11 +2,12 @@
 
 @include pc {
     .p-mainVisual{
-        padding-top: 150px;
-        background: url(../../assets/img/top/bg-mainVisual.png) no-repeat;
+        padding-top: 200px;
+        background: url(../../assets/img/top/bg-mainVisual.png) repeat;
         background-size: contain;
         position: relative;
         background-position: top 90% right 31%;
+        animation: loop-slide 20s infinite linear 1s both;
 
         &__text{
             position: absolute;
@@ -17,6 +18,15 @@
             width: 40%;
             margin: 0 auto;
         }
+        
+        @keyframes loop-slide {
+            from {
+              transform: translateX(0);
+            }
+            to {
+              transform: translateX(-100%);
+            }
+          }
     }
 }
 
