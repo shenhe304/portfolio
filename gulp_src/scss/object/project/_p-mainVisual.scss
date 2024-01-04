@@ -4,12 +4,10 @@
     .p-mainVisual{
         &__bg{
             padding-top: 200px;
-            background: url(../../assets/img/top/bg-mainVisual.png);
+            background: url(../../assets/img/top/bg-mainVisual.png) no-repeat;
             background-size: contain;
             position: relative;
-            background-repeat: repeat-x;
             background-position: top 90% right 31%;
-            animation: loop-slide 20s infinite linear 1s both;
         }
 
         &__text{
@@ -21,15 +19,6 @@
             width: 40%;
             margin: 0 auto;
         }
-        
-        @keyframes loop-slide {
-            from {
-              transform: translateX(0);
-            }
-            to {
-              transform: translateX(-100%);
-            }
-          }
     }
 }
 
