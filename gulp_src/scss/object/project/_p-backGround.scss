@@ -4,21 +4,11 @@
     .p-backGround{
         position: relative;
         overflow: hidden;
-
-        &__maple{
-            position: absolute;
-            top: 54%;
-            right: -125px;
-            width: 500px;
-            height: 500px;
-            background: url(../../assets/img/common/bg-maple.png) no-repeat;
-            background-size: contain;
-        }
-
+        
         &__sakura{
             position: absolute;
-            bottom: 0px;
-            left: -240px;
+            bottom: 130px;
+            left: -220px;
             width: 500px;
             height: 500px;
             background: url(../../assets/img/common/bg-sakura.png) no-repeat;
