@@ -13,7 +13,31 @@
     }
 }
 
+@include tab {
+    .p-work-box{
+        &__rikonEN{
+            background-color: #115173;
+            color: #fff;
+        }
+        &__syohin{
+            background-color: #999794;
+            color: #fff;
+        }
+    }
+}
 
+@include sp {
+    .p-work-box{
+        &__rikonEN{
+            background-color: #115173;
+            color: #fff;
+        }
+        &__syohin{
+            background-color: #999794;
+            color: #fff;
+        }
+    }
+}
 
 
 
