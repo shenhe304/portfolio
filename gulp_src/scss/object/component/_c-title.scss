@@ -2,8 +2,8 @@
 
 @include pc{
     .c-title-lv1{
-        margin-bottom: 30px;
-        font-size: 20px;
+        margin-bottom: 35px;
+        font-size: 38px;
         font-family: 'Bayon', sans-serif;
 
         &--large{
@@ -13,7 +13,7 @@
     
     .c-title-lv2{
         margin-bottom: 20px;
-        font-size: 18px;
+        font-size: 27px;
         font-family: 'Bayon', sans-serif;
 
         &--large{
@@ -30,7 +30,7 @@
 @include tab{
     .c-title-lv1{
         margin-bottom: 30px;
-        font-size: 20px;
+        font-size: 36px;
         font-family: 'Bayon', sans-serif;
 
         &--large{
@@ -40,14 +40,14 @@
     
     .c-title-lv2{
         margin-bottom: 10px;
-        font-size: 18px;
+        font-size: 30px;
         font-family: 'Bayon', sans-serif;
 
         &--large{
-            font-size: 24px;
+            font-size: 34px;
         }
     }
-    
+
     .c-title-lv3{
         font-size: 20px;
         font-family: 'Bayon', sans-serif;
@@ -57,7 +57,7 @@
 @include sp{
     .c-title-lv1{
         margin-bottom: 20px;
-        font-size: 22px;
+        font-size: 27px;
         font-family: 'Bayon', sans-serif;
 
         &--large{
@@ -67,7 +67,7 @@
     
     .c-title-lv2{
         margin-bottom: 8px;
-        font-size: 18px;
+        font-size: 22px;
         font-family: 'Bayon', sans-serif;
 
         &--large{

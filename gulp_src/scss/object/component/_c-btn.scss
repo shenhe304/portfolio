@@ -9,6 +9,7 @@
         background: rgba(255,255,255,.3);
         border-radius: 6px;
         position: relative;
+        transition: all 0.3s;
 
         &::after{
             content: "";
