@@ -1,0 +1,27 @@
+@use "../../global/import"as *;
+
+@include pc {
+    .p-work-related{
+
+        &__wrap{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &__img{
+            width: 520px;
+        }
+        &__box{
+            width: 480px;
+            height: 358px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &--rikonEN{
+                background-color: #115173;
+            }
+        }
+    }
+}
+

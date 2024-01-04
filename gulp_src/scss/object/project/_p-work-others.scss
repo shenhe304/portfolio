@@ -1,7 +1,7 @@
 @use "../../global/import"as *;
 
 @include pc {
-    .p-related{
+    .p-work-others{
         &__wrap{
             display: flex;
             align-items: center;
