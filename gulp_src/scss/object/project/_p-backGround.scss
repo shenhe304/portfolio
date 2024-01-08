@@ -5,13 +5,13 @@
         position: relative;
         overflow: hidden;
         
-        &__sakura{
+        &__hinomaru{
             position: absolute;
-            bottom: 130px;
-            left: -220px;
+            bottom: 85px;
+            left: -243px;
             width: 500px;
             height: 500px;
-            background: url(../../assets/img/common/bg-sakura.png) no-repeat;
+            background: url(../../assets/img/top/mv-hinomaru.png) no-repeat;
             background-size: contain;
         }
     }
@@ -22,13 +22,13 @@
         position: relative;
         overflow: hidden;
 
-        &__sakura{
+        &__hinomaru{
             position: absolute;
             bottom: 140px;
             left: -245px;
             width: 350px;
             height: 350px;
-            background: url(../../assets/img/common/bg-sakura.png) no-repeat;
+            background: url(../../assets/img/top/img-hinomaru.png) no-repeat;
             background-size: contain;
         }
     }
@@ -40,13 +40,13 @@
         position: relative;
         overflow: hidden;
 
-        &__sakura{
+        &__hinomaru{
             position: absolute;
             bottom: 157px;
             left: -241px;
             width: 200px;
             height: 200px;
-            background: url(../../assets/img/common/bg-sakura.png) no-repeat;
+            background: url(../../assets/img/top/img-hinomaru.png) no-repeat;
             background-size: contain;  
         }
     }
