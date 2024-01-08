@@ -10,6 +10,7 @@
             width: 1000px;
             margin: 0 auto 40px;
             border-radius: 10px;
+            border-radius: 4px;
         }
         &__h1{
             width: 800px;
@@ -34,6 +35,9 @@
             &:first-child{
                 width: 50%;
             }
+        }
+        &__img{
+            border-radius: 4px;
         }
     }
 }
@@ -61,6 +65,9 @@
         &__item:first-child{
             width: 45%;
         }
+        &__img{
+            border-radius: 4px;
+        }
     }
 }
 
@@ -78,6 +85,9 @@
         &__h1{
             margin: 0 auto 20px;
             text-align: center;
+        }
+        &__img{
+            border-radius: 4px;
         }
     }
 }
