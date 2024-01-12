@@ -13,7 +13,7 @@
     
     .c-title-lv2{
         margin-bottom: 10px;
-        font-size: 27px;
+        font-size: 30px;
         font-family: "Zilla Slab",serif;
 
         &--large{
@@ -22,13 +22,13 @@
     }
 
     .c-title-lv3{
-        padding: 0 10px;
-        margin: 40px 0 6px;
+        padding: 0 8px;
+        margin: 40px 0 10px;
         font-size: 24px;
         font-family: "Zilla Slab",serif;
 
         &--rikonJP{
-            border-left: 3px #FEB9B9;
+            border-left: 4px solid #feb9b9;
         }
     }
 }
