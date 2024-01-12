@@ -12,9 +12,9 @@
     }
     
     .c-title-lv2{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-size: 27px;
-        font-family: 'Zilla Slab', serif;
+        font-family: "Zilla Slab",serif;
 
         &--large{
             font-size: 40px;
@@ -22,8 +22,14 @@
     }
 
     .c-title-lv3{
-        font-size: 20px;
-        font-family: 'Zilla Slab', serif;
+        padding: 0 10px;
+        margin: 40px 0 6px;
+        font-size: 24px;
+        font-family: "Zilla Slab",serif;
+
+        &--rikonJP{
+            border-left: 3px #FEB9B9;
+        }
     }
 }
 
@@ -49,8 +55,14 @@
     }
 
     .c-title-lv3{
-        font-size: 20px;
-        font-family: 'Zilla Slab', serif;
+        padding: 0 10px;
+        margin: 40px 0 6px;
+        font-size: 24px;
+        font-family: "Zilla Slab",serif;
+
+        &--rikonJP{
+            border-left: 3px #FEB9B9;
+        }
     }
 }
 
@@ -75,8 +87,14 @@
         }
     }
     .c-title-lv3{
-        font-size: 20px;
-        font-family: 'Zilla Slab', serif;
+        padding: 0 10px;
+        margin: 40px 0 6px;
+        font-size: 24px;
+        font-family: "Zilla Slab",serif;
+
+        &--rikonJP{
+            border-left: 3px #FEB9B9;
+        }
     }
 }
 
