@@ -21,16 +21,6 @@
             display: flex;
             justify-content: space-between;
         }
-        &__link{
-            &:hover{
-                position: relative;
-                top: 10px;
-                opacity: 1;
-                transition: all .5s;
-                cursor: pointer;
-                box-shadow: 3px 3px 30px #ccc;
-            }
-        }
         &__item{
             &:first-child{
                 width: 50%;
