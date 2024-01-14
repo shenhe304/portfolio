@@ -12,7 +12,7 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
-    "gulp-watch": "^5.0.1",
+    "gulp-watch": "^4.0.1",
     "sass": "^1.66.1"
   },
   "dependencies": {
@@ -106,7 +106,7 @@
     "fragment-cache": "^0.2.1",
     "fs-mkdirp-stream": "^1.0.0",
     "fs.realpath": "^1.0.0",
-    "fsevents": "^1.2.13",
+    "fsevents": "^2.3.2",
     "function-bind": "^1.1.1",
     "get-caller-file": "^1.0.3",
     "get-intrinsic": "^1.2.1",
@@ -166,7 +166,6 @@
     "lcid": "^1.0.0",
     "lead": "^1.0.0",
     "liftoff": "^3.1.0",
-    "lightbox2": "^2.11.4",
     "load-json-file": "^1.1.0",
     "lodash.clonedeep": "^4.5.0",
     "make-iterator": "^1.0.1",
