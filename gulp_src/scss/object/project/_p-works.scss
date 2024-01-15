@@ -2,13 +2,21 @@
 
 @include pc {
     .p-works{
+        &__link{
+            &:hover{
+                opacity: 1;
+                cursor: pointer;
+            }
+        }
         &__wrap{
             display: flex;
             justify-content: space-between;
-        }
-        &__item{
-            &:first-child{
-                width: 50%;
+            margin-bottom: 80px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            &:nth-child(odd){
+                flex-direction: row-reverse;
             }
         }
         &__img {
@@ -18,7 +26,6 @@
         &__text{
             font-size: 18px;
             font-weight: bold;
-            text-align: center;
         }
         &__box{
             padding: 20px;
@@ -37,10 +44,10 @@
         &__wrap{
             display: flex;
             justify-content: space-between;
-        }
-        &__item{
-            &:first-child{
-                width: 50%;
+            margin-bottom: 80px;
+
+            &:last-child{
+                margin-bottom: 0;
             }
         }
         &__img {
@@ -69,10 +76,10 @@
         &__wrap{
             display: flex;
             justify-content: space-between;
-        }
-        &__item{
-            &:first-child{
-                width: 50%;
+            margin-bottom: 80px;
+
+            &:last-child{
+                margin-bottom: 0;
             }
         }
         &__img {
