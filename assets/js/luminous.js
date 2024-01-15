@@ -9,11 +9,13 @@ if( luminousTrigger !== null ) {
   new LuminousGallery(luminousTrigger);
 }
 
-var options = {
-  caption: function (trigger) {
-    return trigger.querySelector('img').getAttribute('alt');
+const luminousOpts = {
+  sourceAttribute: 'data-luminous',
+  caption: (trigger) => {
+    return trigger.parentElement.querySelector('img').getAttribute('alt');
   },
-}
-var luminousTrigger = document.querySelectorAll('.luminous');
-
-new LuminousGallery(luminousTrigger, {}, options);
+} 
+const luminousGalleryElems = document.querySelectorAll('.luminous');
+if( luminousGalleryElems.length > 0 ) {
+  new LuminousGallery(luminousGalleryElems, {}, luminousOpts);
+} 

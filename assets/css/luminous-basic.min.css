@@ -200,9 +200,9 @@
     height: 32px;
     opacity: .3;
     position: absolute;
-    right: 5px;
-    top: 5px;
-    width: 32px
+    right: 6%;
+    top: 160px;
+    width: 32px;
   }
   
   .lum-close-button:hover {
@@ -276,7 +276,6 @@
     }
     .lum-lightbox-inner img {
       max-height: none;
-      max-width: 93%;
-      margin: 0 auto;
+      max-height: none;
     }
   }
