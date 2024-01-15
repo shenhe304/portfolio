@@ -4,11 +4,7 @@
     .p-details-wrap{
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
 
-        &__item:first-child{
-            width: 35%;
-        }
         &__item:nth-child(2){
             width: 65%;
         }
@@ -20,9 +16,6 @@
         display: flex;
         justify-content: space-between;
 
-        &__item:first-child{
-            width: 35%;
-        }
         &__item:nth-child(2){
             width: 65%;
         }

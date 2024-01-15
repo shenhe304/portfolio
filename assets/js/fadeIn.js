@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
     var scrollAnimationFunc = function () {
       for (var i = 0; i < scrollAnimationElms.length; i++) {
-        var triggerMargin = 90;
+        var triggerMargin = 60;
         if (window.innerHeight > scrollAnimationElms[i].getBoundingClientRect().top + triggerMargin) {
           scrollAnimationElms[i].classList.add('on');
         }
