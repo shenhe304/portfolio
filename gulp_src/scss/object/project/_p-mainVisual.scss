@@ -2,11 +2,9 @@
 
 @include pc {
     .p-mainVisual{
-        padding-top: 35vh;
-        background: url(../../assets/img/top/bg-mainVisual.png) no-repeat;
-        background-size: contain;
-        position: relative;
-        background-position: bottom 20% right;
+        padding: 15vh 0 10vh;
+        color: #fff;
+        background-color: #444;
 
         &__wrap{
             position: absolute;
@@ -16,9 +14,10 @@
             z-index: -1;
         }
 
-        &__text{
-            position: relative;
-            top: -10vh;
+        &__text-wrap{
+            display: flex;
+            justify-content: center;
+            font-family: 'Sora', sans-serif;
         }
     }
 }
@@ -41,6 +40,7 @@
         &__text{
             position: relative;
             top: -6vh;
+            font-family: 'Sora', sans-serif;
         }
     }
 }
@@ -59,6 +59,7 @@
             left: 37vw;
             width: 200px;
             z-index: -1;
+            font-family: 'Sora', sans-serif;
         }
     }
 }
