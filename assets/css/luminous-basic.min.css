@@ -108,7 +108,8 @@
   }
   
   .lum-lightbox-inner img {
-    position: relative
+    position: relative;
+    margin: 0 auto;
   }
   
   .lum-lightbox-inner .lum-lightbox-caption {
