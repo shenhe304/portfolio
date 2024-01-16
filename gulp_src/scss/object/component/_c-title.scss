@@ -13,11 +13,13 @@
     }
     
     .c-title-lv2{
+        margin-bottom: 20px;
         font-size: 30px;
         font-family: 'Sora', sans-serif;
 
         &--large{
             font-size: 40px;
+            margin-bottom: 30px;
         }
     }
 
@@ -27,8 +29,20 @@
         font-size: 24px;
         font-family: "Sora",sans-serif;
 
+        &--large{
+            padding: 0;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
         &--rikonJP{
             border-left: 4px solid #feb9b9;
+        }
+        &--rikonEN{
+            border-left: 4px solid #115173;
+        }
+        &--bkanJP{
+            border-left: 4px solid #759E65;
         }
     }
 }
@@ -61,8 +75,19 @@
         font-size: 23px;
         font-family: 'Sora', sans-serif;
 
+        &--large{
+            padding: 0;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
         &--rikonJP{
             border-left: 4px solid #feb9b9;
+        }
+        &--rikonEN{
+            border-left: 4px solid #115173;
+        }
+        &--bkanJP{
+            border-left: 4px solid #759E65;
         }
     }
 }
@@ -94,8 +119,19 @@
         font-size: 21px;
         font-family: 'Sora', sans-serif;
 
+        &--large{
+            padding: 0;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
         &--rikonJP{
             border-left: 4px solid #feb9b9;
+        }
+        &--rikonEN{
+            border-left: 4px solid #115173;
+        }
+        &--bkanJP{
+            border-left: 4px solid #759E65;
         }
     }
 }
