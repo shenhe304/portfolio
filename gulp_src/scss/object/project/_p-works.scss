@@ -18,14 +18,16 @@
             &:nth-child(odd){
                 flex-direction: row-reverse;
             }
+            &.p-works__img:nth-child(odd){
+                border-radius: 0 4px 4px 0;
+            }
+            &.p-works__box:nth-child(odd){
+                border-radius: 0 4px 4px 0;
+            }
         }
         &__img {
             border-radius: 4px 0 0 4px;
             width: 700px;
-
-            &:nth-child(odd){
-                border-radius: 0 4px 4px 0;
-            }
         }
         &__text{
             font-size: 18px;
@@ -39,10 +41,6 @@
             justify-content: center;
             align-items: center;
             border-radius: 0 4px 4px 0;
-
-            &:nth-child(odd){
-                border-radius: 4px 0 0 4px;
-            }
         }
     }
 }
