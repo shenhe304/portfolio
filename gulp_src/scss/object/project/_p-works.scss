@@ -22,6 +22,10 @@
         &__img {
             border-radius: 4px 0 0 4px;
             width: 700px;
+
+            &:nth-child(odd){
+                border-radius: 0 4px 4px 0;
+            }
         }
         &__text{
             font-size: 18px;
@@ -35,6 +39,10 @@
             justify-content: center;
             align-items: center;
             border-radius: 0 4px 4px 0;
+
+            &:nth-child(odd){
+                border-radius: 4px 0 0 4px;
+            }
         }
     }
 }
@@ -49,10 +57,17 @@
             &:last-child{
                 margin-bottom: 0;
             }
+            &:nth-child(odd){
+                flex-direction: row-reverse;
+            }
         }
         &__img {
             border-radius: 4px 0 0 4px;
             width: 700px;
+
+            &:nth-child(odd){
+                border-radius: 0 4px 4px 0;
+            }
         }
         &__text{
             font-size: 18px;
@@ -67,6 +82,10 @@
             justify-content: center;
             align-items: center;
             border-radius: 0 4px 4px 0;
+
+            &:nth-child(odd){
+                border-radius: 4px 0 0 4px;
+            }
         }
     }
 }
