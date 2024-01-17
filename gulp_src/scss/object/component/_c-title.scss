@@ -29,6 +29,10 @@
         font-size: 24px;
         font-family: "Sora",sans-serif;
 
+        &:first-child{
+            margin-top: 0;
+        }
+
         &--large{
             padding: 0;
             margin-bottom: 20px;
