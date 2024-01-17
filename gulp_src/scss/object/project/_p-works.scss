@@ -17,12 +17,13 @@
             }
             &:nth-child(odd){
                 flex-direction: row-reverse;
-            }
-            &.p-works__img:nth-child(odd){
-                border-radius: 0 4px 4px 0;
-            }
-            &.p-works__box:nth-child(odd){
-                border-radius: 0 4px 4px 0;
+
+                .p-works__img {
+                    border-radius: 0 4px 4px 0;
+                }
+                .p-works__box {
+                    border-radius: 4px 0 0 4px;
+                }
             }
         }
         &__img {
@@ -34,7 +35,7 @@
             font-weight: bold;
         }
         &__box{
-            padding: 20px;
+            padding: 20px 40px;
             width: 100%;
             display: flex;
             flex-direction: column;
