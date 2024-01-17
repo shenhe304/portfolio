@@ -3,20 +3,28 @@
 @include pc {
     .p-mainVisual{
         padding: 15vh 0 10vh;
-        color: #fff;
 
         &__wrap{
             position: absolute;
-            top: -14vh;
-            left: -10vw;
-            width: 875px;
+            top: -2vh;
+            left: 20vw;
+            width: 780px;
             z-index: -1;
         }
-
         &__text-wrap{
             display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: "Sora",sans-serif;
+        }
+        &__text{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
             justify-content: center;
-            font-family: 'Sora', sans-serif;
+            font-size: 20px;
+            text-align: left;
+            font-weight: 400;
         }
     }
 }

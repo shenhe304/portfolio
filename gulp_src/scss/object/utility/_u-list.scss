@@ -1,26 +1,26 @@
 @use "../../global/import"as *;
 
 .u-list-disc {
-    margin-left: 15px;
+    margin-left: 24px;
     position: relative;
 }
 
 .u-list-disc::before {
-    content: "•"; 
+    content: "✴︎";
     color: #333;
-    font-size: 16px; 
-    margin-right: 8px; 
+    font-size: 20px;
+    margin-right: 12px;
     position: absolute;
-    left: -15px;
+    left: -24px;
 }
 
 .u-list-disc--white::before {
-    content: "•"; 
+    content: "✴︎";
     color: #fff;
-    font-size: 16px; 
-    margin-right: 8px; 
+    font-size: 20px;
+    margin-right: 12px;
     position: absolute;
-    left: -15px;
+    left: -24px;
 }
 
 
