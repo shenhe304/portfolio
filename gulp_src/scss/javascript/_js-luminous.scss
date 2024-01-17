@@ -182,24 +182,6 @@
     opacity: 0
   }
   
-  .lum-gallery-button {
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    height: 100px;
-    margin: 0;
-    max-height: 100%;
-    outline: 0;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    text-indent: 150%;
-    top: 50%;
-    transform: translateY(-60%);
-    white-space: nowrap;
-    width: 60px
-  }
-
 @include pc{
     .lum-close-button {
       height: 32px;
@@ -208,8 +190,7 @@
       right: 20px;
       top: 80px;
       width: 32px;
-    }
-    
+    } 
 }
 
 @include tab{
@@ -221,6 +202,17 @@
         top: 30%;
         width: 32px;
     }
+}
+
+@include sp{
+  .lum-close-button {
+    height: 32px;
+    opacity: .3;
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    width: 32px;
+  } 
 }
   
   .lum-close-button:hover {
@@ -293,7 +285,23 @@
     }
 }
 
-  
+.lum-gallery-button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 100px;
+  margin: 0;
+  max-height: 100%;
+  outline: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  text-indent: 150%;
+  top: 50%;
+  transform: translateY(-60%);
+  white-space: nowrap;
+  width: 60px
+}
   .lum-previous-button:after {
     border-left: 4px solid hsla(0, 0%, 100%, .8);
     border-radius: 3px 0 0 0;

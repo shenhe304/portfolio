@@ -55,7 +55,6 @@
         margin-bottom: 30px;
         font-size: 36px;
         font-family: 'Sora', sans-serif;
-        font-weight: normal;
 
         &--large{
             font-size: 30px;
@@ -78,6 +77,10 @@
         font-size: 23px;
         font-family: 'Sora', sans-serif;
 
+        &:first-child{
+            margin-top: 0;
+
+        }
         &--large{
             padding: 0;
             margin-bottom: 20px;
@@ -100,7 +103,6 @@
         margin-bottom: 20px;
         font-size: 27px;
         font-family: 'Sora', sans-serif;
-        font-weight: normal;
 
         &--large{
             font-size: 20px;
@@ -121,6 +123,10 @@
         margin: 40px 0 10px;
         font-size: 21px;
         font-family: 'Sora', sans-serif;
+        
+        &:first-child{
+            margin-top: 0;
+        }
 
         &--large{
             padding: 0;
