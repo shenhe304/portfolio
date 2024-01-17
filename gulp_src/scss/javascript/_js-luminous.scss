@@ -210,9 +210,9 @@
     opacity: .3;
     position: absolute;
     right: 20px;
-    top: 80px;
-    width: 32px;
-  } 
+    top: 38%;
+    width: 29px;
+  }   
 }
   
   .lum-close-button:hover {
@@ -275,13 +275,13 @@
     }
     
     .lum-gallery-button:after {
-        border-top: 4px solid hsla(0, 0%, 100%, .8);
-        content: "";
-        display: block;
-        height: 15px;
-        position: absolute;
-        top: 50%;
-        width: 15px;
+      border-top: 4px solid rgba(255,255,255,.8);
+      content: "";
+      display: block;
+      height: 15px;
+      position: absolute;
+      top: 90%;
+      width: 15px;
     }
 }
 
@@ -327,8 +327,8 @@
     .lum-lightbox-caption {
       bottom: 0;
       position: absolute;
-      width: 100%
-    }
+      width: 100%;
+  }
     .lum-lightbox-position-helper {
       margin: auto
     }
