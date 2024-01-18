@@ -2,45 +2,32 @@
 
 @include pc {
     .p-backGround{
-        position: relative;
         overflow: hidden;
-        background: url(../assets/img/common/myface.jpg) no-repeat;
+        background: url(../../assets/img/common/myface.png) no-repeat;
         background-attachment: fixed;
+        background-size: 50%;
+        background-position: center;
     }
 }
 
-@include tab {
+@include pc {
     .p-backGround{
-        position: relative;
         overflow: hidden;
-
-        &__hinomaru{
-            position: absolute;
-            bottom: 140px;
-            left: -245px;
-            width: 350px;
-            height: 350px;
-            background: url(../../assets/img/top/img-hinomaru.png) no-repeat;
-            background-size: contain;
-        }
+        background: url(../../assets/img/common/myface.png) no-repeat;
+        background-attachment: fixed;
+        background-size: 50%;
+        background-position: center;
     }
 }
 
 
-@include sp {
+@include pc {
     .p-backGround{
-        position: relative;
         overflow: hidden;
-
-        &__hinomaru{
-            position: absolute;
-            bottom: 157px;
-            left: -241px;
-            width: 200px;
-            height: 200px;
-            background: url(../../assets/img/top/img-hinomaru.png) no-repeat;
-            background-size: contain;  
-        }
+        background: url(../../assets/img/common/myface.png) no-repeat;
+        background-attachment: fixed;
+        background-size: 50%;
+        background-position: center;
     }
 }
 
