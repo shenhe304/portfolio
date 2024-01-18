@@ -4,16 +4,8 @@
     .p-backGround{
         position: relative;
         overflow: hidden;
-        
-        &__hinomaru{
-            position: absolute;
-            bottom: 85px;
-            left: -243px;
-            width: 500px;
-            height: 500px;
-            background: url(../../assets/img/top/mv-hinomaru.png) no-repeat;
-            background-size: contain;
-        }
+        background: url(../assets/img/common/myface.jpg) no-repeat;
+        background-attachment: fixed;
     }
 }
 
