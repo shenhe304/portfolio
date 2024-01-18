@@ -35,15 +35,16 @@
 
         &__wrap{
             position: absolute;
-            top: 17vh;
-            left: 41vw;
-            width: 200px;
+            top: -2vh;
+            left: 20vw;
+            width: 780px;
             z-index: -1;
         }
+
         &__text{
-            position: relative;
-            top: -6vh;
-            font-family: 'Sora', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: left;
         }
     }
 }
@@ -63,6 +64,12 @@
             width: 200px;
             z-index: -1;
             font-family: 'Sora', sans-serif;
+        }
+
+        &__text{
+            font-size: 14px;
+            font-weight: 300;
+            text-align: left;
         }
     }
 }
