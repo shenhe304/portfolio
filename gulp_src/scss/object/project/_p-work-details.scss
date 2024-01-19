@@ -1,0 +1,84 @@
+@use "../../global/import"as *;
+
+@include pc {
+    .p-work-details{
+        &__top{
+            padding: 110px 0 40px;
+            background: #efefef;
+        }
+        &__mainVisual{
+            width: 1000px;
+            margin: 0 auto 40px;
+            border-radius: 4px;
+        }
+        &__h1{
+            width: 800px;
+            margin: 0 auto 20px;
+            text-align: center;
+        }
+        &__wrap{
+            display: flex;
+            justify-content: space-between;
+        }
+        &__item{
+            width: 45%;
+        }
+        &__img{
+            border-radius: 4px;
+        }
+    }
+}
+
+@include tab {
+    .p-work-details{
+        &__top{
+            padding: 110px 0 30px;
+            background: #efefef;
+        }
+        &__mainVisual{
+            width: 720px;
+            margin: 0 auto 40px;
+            border-radius: 4px;
+        }
+        &__h1{
+            width: 720px;
+            margin: 0 auto 20px;
+            text-align: center;
+        }
+        &__wrap{
+            display: flex;
+            gap: 0 20px;
+        }
+        &__item{
+            width: 45%;
+        }
+        &__img{
+            border-radius: 4px;
+        }
+    }
+}
+
+@include sp {
+    .p-work-details{
+        &__top{
+            padding: 100px 0 30px;
+            background: #efefef;
+        }
+        &__mainVisual{
+            width: 100%;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        &__h1{
+            margin: 0 auto 20px;
+            text-align: center;
+        }
+        &__img{
+            border-radius: 4px;
+        }
+    }
+}
+
+
+
+

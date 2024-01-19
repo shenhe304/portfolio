@@ -11,6 +11,7 @@
 
         &:hover{
             opacity: 1;
+            padding: 0;
         }
 
         &::before{
@@ -23,8 +24,7 @@
         }
 
         &:hover::before{
-            display: inline-block;
-            background: url(../../assets/img/icon/icon-arrow-back-hover.svg) no-repeat;
+            background: none;
         }
         
 
@@ -35,7 +35,7 @@
             left: 0;
             width: 100%;
             height: 2px;
-            background:#D2001A;
+            background:#d10c0c;
             transition: all .3s;
             transform: scale(0, 1);
             transform-origin: left top;
@@ -82,7 +82,7 @@
             left: 0;
             width: 100%;
             height: 2px;
-            background:#D2001A;
+            background:#d10c0c;
             transition: all .3s;
             transform: scale(0, 1);
             transform-origin: left top;
@@ -129,7 +129,7 @@
             left: 0;
             width: 100%;
             height: 2px;
-            background:#D2001A;
+            background:#d10c0c;
             transition: all .3s;
             transform: scale(0, 1);
             transform-origin: left top;

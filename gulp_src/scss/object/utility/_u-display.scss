@@ -7,6 +7,10 @@
     .u-sp{
         display: none;
     }
+    .u-flex{
+        display: flex;
+        gap: 0 15px;
+    }
 }
 
 @include tab{
@@ -15,6 +19,10 @@
     }
     .u-sp{
         display: none;
+    }
+    .u-flex{
+        display: flex;
+        gap: 0 15px;
     }
 }
 

@@ -2,83 +2,34 @@
 
 @include pc {
     .p-backGround{
-        position: relative;
         overflow: hidden;
-
-        &__maple{
-            position: absolute;
-            top: 45%;
-            right: -150px;
-            width: 650px;
-            height: 650px;
-            background: url(../../assets/img/common/bg-maple.png) no-repeat;
-            background-size: contain;
-        }
-
-        &__sakura{
-            position: absolute;
-            bottom: -29px;
-            left: -260px;
-            width: 700px;
-            height: 700px;
-            background: url(../../assets/img/common/bg-sakura.png) no-repeat;
-            background-size: contain;
-        }
+        background: url(../../assets/img/common/myface.png) no-repeat;
+        background-attachment: fixed;
+        background-size: 30%;
+        background-position: center top 30%;
     }
 }
 
 @include tab {
     .p-backGround{
-        position: relative;
         overflow: hidden;
-
-        &__maple{
-            position: absolute;
-            top: 45%;
-            right: -95px;
-            width: 550px;
-            height: 550px;
-            background: url(../../assets/img/common/bg-maple.png) no-repeat;
-            background-size: contain;
-        }
-
-        &__sakura{
-            position: absolute;
-            bottom: 52px;
-            left: -288px;
-            width: 400px;
-            height: 400px;
-            background: url(../../assets/img/common/bg-sakura.png) no-repeat;
-            background-size: contain;
-        }
+        background: url(../../assets/img/common/myface.png) no-repeat;
+        background-attachment: fixed;
+        background-size: 36%;
+        background-position: center top 10%;
     }
 }
+
 
 
 @include sp {
     .p-backGround{
-        position: relative;
         overflow: hidden;
-
-        &__maple{
-            position: absolute;
-            bottom: 13%;
-            right: -40px;
-            width: 200px;
-            height: 200px;
-            background: url(../../assets/img/common/bg-maple.png) no-repeat;
-            background-size: contain;
-        }
-
-        &__sakura{
-            position: absolute;
-            bottom: 126px;
-            left: -241px;
-            width: 200px;
-            height: 200px;
-            background: url(../../assets/img/common/bg-sakura.png) no-repeat;
-            background-size: contain;      
-        }
+        background: url(../../assets/img/common/myface.png) no-repeat;
+        background-attachment: fixed;
+        background-size: 30%;
+        background-position: center top 30%;
     }
 }
+
 

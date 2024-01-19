@@ -1,0 +1,82 @@
+@use "../../global/import"as *;
+
+@include pc{
+    .c-btn{
+        width: 280px;
+        padding: 15px 0;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        background: rgba(255,255,255,.3);
+        border-radius: 6px;
+        transition: all 0.3s;
+        position: relative;
+
+        &::after{
+            content: "";
+            position: absolute;
+            background: url(../../assets/img/icon/icon-arrow-btn.svg) no-repeat;
+            width: 12px;
+            height: 12px;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+        }
+
+        &:hover{
+            opacity: 1;
+            background: #fff;
+            color: #b21f31;
+            border-radius: 50px;
+            transition: all 1s;
+        }
+    }
+}
+
+@include tab{
+    .c-btn{
+        width: 100%;
+        padding: 15px 0;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        background: rgba(255,255,255,.3);
+        border-radius: 6px;
+        position: relative;
+
+        &::after{
+            content: "";
+            position: absolute;
+            background: url(../../assets/img/icon/icon-arrow-btn.svg) no-repeat;
+            width: 12px;
+            height: 12px;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+@include sp{
+    .c-btn{
+        width: 100%;
+        padding: 15px 0;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        background: rgba(255,255,255,.3);
+        border-radius: 6px;
+        position: relative;
+
+        &::after{
+            content: "";
+            position: absolute;
+            background: url(../../assets/img/icon/icon-arrow-btn.svg) no-repeat;
+            width: 12px;
+            height: 12px;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+        }
+    }
+}

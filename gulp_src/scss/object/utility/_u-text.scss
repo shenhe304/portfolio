@@ -13,10 +13,28 @@
     font-weight: bold;
 }
 .u-primary{
-    color: #d2001a;
+    color: #D10C0C;
 }
 .u-secondary{
-    color: #fee330;
+    color: #50507C;
+}
+.u-third{
+    color: #DDCAC7;
+}
+.u-white{
+    color: #fff;
+}
+.u-fc-rikonJP{
+    color: #FEB9B9;
+}
+.u-fc-rikonEN{
+    color: #115173;
+}
+.u-fc-bkanJP{
+    color: #759E65
+}
+.u-fc-syohin{
+    color: #b21f31;
 }
 
 @include pc{

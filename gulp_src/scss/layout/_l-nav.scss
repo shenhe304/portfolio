@@ -3,9 +3,17 @@
 @include pc {
     .l-nav{
         &__links{
+            margin-bottom: 0;
             display: flex;
             align-items: center;
             gap:  0 20px;
+        }
+        &__icon{
+            width: 23px;
+
+            &--small{
+                width: 18px;
+            }
         }
     }
 }
@@ -13,9 +21,17 @@
 @include tab {
     .l-nav{
         &__links{
+            margin-bottom: 0;
             display: flex;
             align-items: center;
             gap:  0 20px;
+        }
+        &__icon{
+            width: 23px;
+
+            &--small{
+                width: 18px;
+            }
         }
     }
 }
@@ -23,9 +39,17 @@
 @include sp {
     .l-nav{
         &__links{
+            margin-bottom: 0;
             display: flex;
             align-items: center;
             gap:  0 20px;
+        }
+        &__icon{
+            width: 23px;
+            
+            &--small{
+                width: 18px;
+            }
         }
     }
 }
