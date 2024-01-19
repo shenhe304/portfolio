@@ -2,7 +2,8 @@
 
 @include pc {
     .p-mainVisual{
-        padding: 15vh 0 10vh;
+        padding: 15vh 0;
+        margin-bottom: 0;
 
         &__wrap{
             position: absolute;
@@ -27,7 +28,8 @@
 
 @include tab {
     .p-mainVisual{
-        padding: 15vh 0 10vh;
+        padding: 15vh 0;
+        margin-bottom: 0;
 
         &__wrap{
             position: absolute;
@@ -52,7 +54,8 @@
 
 @include sp {
     .p-mainVisual{
-        padding: 15vh 0 10vh;
+        padding: 15vh 0;
+        margin-bottom: 0;
 
         &__wrap{
             position: absolute;
