@@ -57,7 +57,7 @@
         &__wrap{
             display: flex;
             justify-content: space-between;
-            margin-bottom: 80px;
+            margin-bottom: 40px;
             &:last-child{
                 margin-bottom: 0;
             }
@@ -74,14 +74,14 @@
         }
         &__img {
             border-radius: 4px 0 0 4px;
-            width: 700px;
+            width: 400px;
         }
         &__text{
             font-size: 18px;
             font-weight: bold;
         }
         &__box{
-            padding: 20px 40px;
+            padding: 30px;
             width: 100%;
             display: flex;
             flex-direction: column;

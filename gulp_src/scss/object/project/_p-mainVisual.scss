@@ -28,7 +28,7 @@
 
 @include tab {
     .p-mainVisual{
-        padding: 15vh 0;
+        padding: 10vh 0;
         margin-bottom: 0;
 
         &__wrap{
@@ -54,8 +54,7 @@
 
 @include sp {
     .p-mainVisual{
-        padding: 15vh 0;
-        margin-bottom: 0;
+        padding: 20vh 0 10vh;
 
         &__wrap{
             position: absolute;
