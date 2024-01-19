@@ -5,29 +5,31 @@
         overflow: hidden;
         background: url(../../assets/img/common/myface.png) no-repeat;
         background-attachment: fixed;
-        background-size: 50%;
-        background-position: center;
+        background-size: 30%;
+        background-position: center top 30%;
     }
 }
 
-@include pc {
+@include tab {
     .p-backGround{
         overflow: hidden;
         background: url(../../assets/img/common/myface.png) no-repeat;
         background-attachment: fixed;
-        background-size: 50%;
-        background-position: center;
+        background-size: 30%;
+        background-position: center top 30%;
     }
 }
 
 
-@include pc {
+
+@include sp {
     .p-backGround{
         overflow: hidden;
         background: url(../../assets/img/common/myface.png) no-repeat;
         background-attachment: fixed;
-        background-size: 50%;
-        background-position: center;
+        background-size: 30%;
+        background-position: center top 30%;
     }
 }
+
 
