@@ -54,7 +54,8 @@
 
 @include sp {
     .p-mainVisual{
-        padding: 20vh 0 10vh;
+        padding: 20vh 0 5vh;
+        margin-bottom: 0;
 
         &__wrap{
             position: absolute;
