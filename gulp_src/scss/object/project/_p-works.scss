@@ -55,8 +55,6 @@
             }
         }
         &__wrap{
-            display: flex;
-            justify-content: space-between;
             margin-bottom: 40px;
             &:last-child{
                 margin-bottom: 0;
@@ -74,7 +72,6 @@
         }
         &__img {
             border-radius: 4px 0 0 4px;
-            width: 400px;
         }
         &__text{
             font-size: 18px;

@@ -4,8 +4,8 @@
     .p-about{
         &__features{
             padding: 20px 0;
-            border-top: 1px solid #333;
-            border-bottom: 1px solid #333;
+            border-top: 1px solid #1a1b1f;
+            border-bottom: 1px solid #1a1b1f;
         }
         &__wrap{
             display: flex;
@@ -38,7 +38,7 @@
             line-height: 1.3;
             text-align: center;
             border-radius: 5px;
-            background: #333;
+            background: #1a1b1f;
 
             &::before{
                 content: "";
@@ -46,7 +46,7 @@
                 top: 100%;
                 left: 50%;
                 border: 5px solid rgba(0,0,0,0);
-                border-top: 11px solid #333;
+                border-top: 11px solid #1a1b1f;
                 transform: translateX(-50%);
             }
         }
@@ -63,8 +63,8 @@
     .p-about{
         &__features{
             padding: 20px 0;
-            border-top: 1px solid #333;
-            border-bottom: 1px solid #333;
+            border-top: 1px solid #1a1b1f;
+            border-bottom: 1px solid #1a1b1f;
         }
         &__wrap{
             display: flex;
@@ -97,7 +97,7 @@
             line-height: 1.3;
             text-align: center;
             border-radius: 5px;
-            background: #333;
+            background: #1a1b1f;
 
             &::before{
                 content: "";
@@ -105,7 +105,7 @@
                 top: 100%;
                 left: 50%;
                 border: 5px solid rgba(0,0,0,0);
-                border-top: 11px solid #333;
+                border-top: 11px solid #1a1b1f;
                 transform: translateX(-50%);
             }
         }
@@ -123,8 +123,8 @@
     .p-about{
         &__features{
             padding: 20px 0;
-            border-top: 1px solid #333;
-            border-bottom: 1px solid #333;
+            border-top: 1px solid #1a1b1f;
+            border-bottom: 1px solid #1a1b1f;
         }
         &__wrap{
             display: flex;
@@ -158,7 +158,7 @@
             line-height: 1.3;
             text-align: center;
             border-radius: 5px;
-            background: #333;
+            background: #1a1b1f;
 
             &::before{
                 content: "";
@@ -166,7 +166,7 @@
                 top: 100%;
                 left: 50%;
                 border: 5px solid rgba(0,0,0,0);
-                border-top: 11px solid #333;
+                border-top: 11px solid #1a1b1f;
                 transform: translateX(-50%);
             }
         }
