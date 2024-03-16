@@ -2,79 +2,38 @@
 
 @include pc {
     .p-mainVisual{
-        padding: 20vh 0;
+        padding: 30vh 0 20vh;
         margin-bottom: 0;
 
-        &__wrap{
-            position: absolute;
-            top: -2vh;
-            left: 20vw;
-            width: 780px;
-            z-index: -1;
-        }
-        &__text-wrap{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-family: "Sora",sans-serif;
-        }
-        &__text{
-            font-size: 14px;
-            font-weight: 300;
-            text-align: left;
+        &__img{
+            width: 64%;
+            margin: 40px auto;
         }
     }
 }
 
 @include tab {
     .p-mainVisual{
-        padding: 10vh 0;
+        padding: 15vh 0 10vh;
         margin-bottom: 0;
 
-        &__wrap{
-            position: absolute;
-            top: -2vh;
-            left: 20vw;
-            width: 780px;
-            z-index: -1;
-        }
-        &__text-wrap{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-family: "Sora",sans-serif;
-        }
-        &__text{
-            font-size: 14px;
-            font-weight: 300;
-            text-align: left;
+        &__img{
+            width: 64%;
+            margin: 30px auto;
         }
     }
 }
 
 @include sp {
     .p-mainVisual{
-        padding: 20vh 0 5vh;
+        padding: 18vh 0 5vh;
         margin-bottom: 0;
 
-        &__wrap{
-            position: absolute;
-            top: -2vh;
-            left: 20vw;
-            width: 780px;
-            z-index: -1;
+        &__img{
+            width: 100%;
+            margin: 20px auto;
         }
-        &__text-wrap{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-family: "Sora",sans-serif;
-        }
-        &__text{
-            font-size: 14px;
-            font-weight: 300;
-            text-align: left;
-        }
+
     }
 }
 

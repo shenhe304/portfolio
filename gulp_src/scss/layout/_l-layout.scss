@@ -57,15 +57,14 @@ a + dl{
         margin: 0 auto;
 
     }
+    .l-containerMedium{
+        max-width: 1080px;
+        margin: 0 auto;
+    }
     .l-containerSmall{
         max-width: 700px;
         margin: 0 auto;
     }
-    .l-containerWorks{
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-
     p{
         font-size: 16px;
         line-height: 1.8;
@@ -86,7 +85,7 @@ a + dl{
         max-width: 600px;
         margin: 0 auto;
     }
-    .l-containerWorks{
+    .l-containerMedium{
         max-width: 720px;
         margin: 0 auto;
     }
@@ -110,7 +109,7 @@ a + dl{
         max-width: 300px;
         margin: 0 auto;
     }
-    .l-containerWorks{
+    .l-containerMedium{
         max-width: 355px;
         margin: 0 auto;
     }

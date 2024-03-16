@@ -7,7 +7,8 @@
 
         &--large{
             margin-bottom: 30px;
-            font-size: 120px;
+            font-size: 38px;
+            text-align: center;
         }
     }
     
@@ -25,7 +26,7 @@
         padding: 0 0 0 8px;
         margin: 60px 0 10px;
         font-size: 24px;
-        font-family: "Sora",sans-serif;
+        font-family: "Montserrat", sans-serif;
 
         &:first-child{
             margin-top: 0;
@@ -55,8 +56,9 @@
         font-size: 36px;
 
         &--large{
-            font-size: 84px;
-            margin-bottom: 12px;
+            margin-bottom: 30px;
+            font-size: 38px;
+            text-align: center;
         }
     }
     
@@ -97,8 +99,8 @@
 
 @include sp{
     .c-title-lv1{
-        margin-bottom: 20px;
-        font-size: 27px;
+        margin-bottom: 30px;
+        font-size: 38px;
 
         &--large{
             font-size: 43px;
