@@ -71,40 +71,41 @@ p{
                     line-height: 46px;
                 }
             }
+        }
 
-            &__personal{
-                grid-column-gap: 80px;
-                grid-row-gap: 20px;
-                grid-template-rows: auto auto;
-                grid-template-areas:
-                    ". ."
-                    ". Area";
-                margin-bottom: 110px;
 
-                &-items{
-                    margin-bottom: 25px;
-                }
+        &__personal{
+            grid-column-gap: 80px;
+            grid-row-gap: 20px;
+            grid-template-rows: auto auto;
+            grid-template-areas:
+                ". ."
+                ". Area";
+            margin-bottom: 110px;
+
+            &-items{
+                margin-bottom: 25px;
+            }
+        }
+
+        &__hobbies{
+
+            &-title{
+                grid-area: 1 / 1 / 2 / 2;
             }
 
-            &__hobbies{
+            &-list{
+                grid-area: 2 / 1 / 3 / 2;
+            }
+        }
 
-                &-title{
-                    grid-area: 1 / 1 / 2 / 2;
-                }
-
-                &-list{
-                    grid-area: 2 / 1 / 3 / 2;
-                }
+        &__language{
+            &-title{
+                grid-area: 1 / 2 / 2 / 3;
             }
 
-            &__language{
-                &-title{
-                    grid-area: 1 / 2 / 2 / 3;
-                }
-
-                &-list{
-                    grid-area: Area;
-                }
+            &-list{
+                grid-area: Area;
             }
         }
     }
@@ -226,16 +227,19 @@ p{
             grid-auto-columns: 1fr;
             display: grid;
         }
-        
+
         &__intro{
             grid-column-gap: 63px;
-            grid-row-gap: 30px;
-            grid-template: ". ." / 2fr 2fr;
+            grid-row-gap: 50px;
             grid-auto-columns: 1fr;
+            grid-template:
+            "."
+            "." / 1fr;
             align-items: center;
             margin-top: 100px;
             margin-bottom: 140px;
             display: grid;
+            text-align: center;
 
             &-text{
                 grid-area: 1 / 1 / 2 / 2;
@@ -249,10 +253,9 @@ p{
         }
 
         &__skills{
-            grid-column-gap: 80px;
-            grid-row-gap: 30px;
-            grid-template: ". ." / 1fr 1fr;
-            margin-bottom: 140px;
+            width: 100%;
+            max-width: none;
+            grid-template-columns: 1fr;
 
             &-text{
                 grid-area: 1 / 1 / 2 / 2;
@@ -285,13 +288,8 @@ p{
             }
 
             &__personal{
-                grid-column-gap: 80px;
-                grid-row-gap: 20px;
-                grid-template-rows: auto auto;
-                grid-template-areas:
-                    ". ."
-                    ". Area";
-                margin-bottom: 110px;
+                width: 100%;
+                max-width: none;
 
                 &-items{
                     margin-bottom: 25px;
