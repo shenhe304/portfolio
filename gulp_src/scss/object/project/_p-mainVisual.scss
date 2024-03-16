@@ -4,20 +4,35 @@
     .p-mainVisual{
         padding: 30vh 0 20vh;
         margin-bottom: 0;
-}
+
+        &__img{
+            width: 64%;
+            margin: 40px auto;
+        }
+    }
 }
 
 @include tab {
     .p-mainVisual{
-        padding: 20vh 0 10vh;
+        padding: 15vh 0 10vh;
         margin-bottom: 0;
+
+        &__img{
+            width: 64%;
+            margin: 30px auto;
+        }
     }
 }
 
 @include sp {
     .p-mainVisual{
-        padding: 20vh 0 5vh;
+        padding: 18vh 0 5vh;
         margin-bottom: 0;
+
+        &__img{
+            width: 100%;
+            margin: 20px auto;
+        }
 
     }
 }
