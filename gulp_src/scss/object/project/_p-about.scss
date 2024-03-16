@@ -127,20 +127,26 @@ p{
 
         &__intro{
             grid-column-gap: 63px;
-            grid-row-gap: 30px;
-            grid-template: ". ." / 2fr 2fr;
+            grid-row-gap: 50px;
+            grid-template:
+                "."
+                "." / 1fr;
             grid-auto-columns: 1fr;
             align-items: center;
             margin-top: 100px;
             margin-bottom: 140px;
+            text-align: center;
             display: grid;
 
             &-text{
                 grid-area: 1 / 1 / 2 / 2;
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             &-img{
-                grid-area: 1 / 2 / 2 / 3;
+                grid-area: 2 / 1 / 3 / 2;
                 align-self: start;
                 justify-self: end;
             }
@@ -148,8 +154,14 @@ p{
 
         &__skills{
             grid-column-gap: 80px;
-            grid-row-gap: 30px;
-            grid-template: ". ." / 1fr 1fr;
+            grid-row-gap: 50px;
+            grid-template:
+                "."
+                "." / 1fr;
+            width: 80%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
             margin-bottom: 140px;
 
             &-text{
@@ -157,67 +169,68 @@ p{
             }
 
             &-group{
-                grid-area: 1 / 2 / 2 / 3;
+                grid-area: 2 / 1 / 3 / 2;
             }
 
             &-items{
                 grid-column-gap: 30px;
-                grid-row-gap: 30px;
-                grid-template-rows: auto;
-                grid-template-areas: ". .";
-                padding-top: 10px;
+                grid-row-gap: 0px;
+                grid-template:
+                    "."
+                    "." / 1fr;
+                padding-top: 0;
 
                 &--left{
                     grid-area: 1 / 1 / 2 / 2;
                 }
 
                 &--right{
-                    grid-area: 1 / 2 / 2 / 3;
+                    grid-area: 2 / 1 / 3 / 2;
                 }
 
                 &--name{
-                    margin-bottom: 10px;
-                    font-size: 30px;
-                    line-height: 46px;
+                    font-size: 24px;
+                    line-height: 42px;
                 }
             }
-        }
 
+            &__personal{
+                width: 80%;
+                text-align: center;
+                grid-template:
+                    "."
+                    "."
+                    "."
+                    "." / 1fr;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                margin-bottom: 110px;
 
-        &__personal{
-            grid-column-gap: 80px;
-            grid-row-gap: 20px;
-            grid-template-rows: auto auto;
-            grid-template-areas:
-                ". ."
-                ". Area";
-            margin-bottom: 110px;
-
-            &-items{
-                margin-bottom: 25px;
-            }
-        }
-
-        &__hobbies{
-
-            &-title{
-                grid-area: 1 / 1 / 2 / 2;
+                &-items{
+                    margin-bottom: 25px;
+                }
             }
 
-            &-list{
-                grid-area: 2 / 1 / 3 / 2;
-                margin-top: 20px;
-            }
-        }
+            &__hobbies{
 
-        &__language{
-            &-title{
-                grid-area: 1 / 2 / 2 / 3;
+                &-title{
+                    grid-area: 1 / 1 / 2 / 2;
+                }
+
+                &-list{
+                    grid-area: 2 / 1 / 3 / 2;
+                }
             }
 
-            &-list{
-                grid-area: Area;
-                margin-top: 20px;
+            &__language{
+                &-title{
+                    grid-area: 1 / 2 / 2 / 3;
+                }
+
+                &-list{
+                    grid-area: Area;
+                }
             }
         }
     }
@@ -283,10 +296,11 @@ p{
 
             &-items{
                 grid-column-gap: 30px;
-                grid-row-gap: 30px;
-                grid-template-rows: auto;
-                grid-template-areas: ". .";
-                padding-top: 10px;
+                grid-row-gap: 0px;
+                grid-template:
+                    "."
+                    "." / 1fr;
+                padding-top: 0;
 
                 &--left{
                     grid-area: 1 / 1 / 2 / 2;
