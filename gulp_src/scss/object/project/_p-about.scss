@@ -114,127 +114,6 @@ p{
     }
 }
 
-@include tab{
-    .p-about{
-        &__grid{
-            grid-row-gap: 16px;
-            grid-column-gap: 16px;
-            grid-template-rows: auto auto;
-            grid-template-columns: 1fr 1fr;
-            grid-auto-columns: 1fr;
-            display: grid;
-        }
-
-        &__intro{
-            grid-column-gap: 63px;
-            grid-row-gap: 50px;
-            grid-template:
-                "."
-                "." / 1fr;
-            grid-auto-columns: 1fr;
-            align-items: center;
-            margin-top: 100px;
-            margin-bottom: 140px;
-            text-align: center;
-            display: grid;
-
-            &-text{
-                grid-area: 1 / 1 / 2 / 2;
-                width: 80%;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            &-img{
-                grid-area: 2 / 1 / 3 / 2;
-                align-self: start;
-                justify-self: end;
-            }
-        }
-
-        &__skills{
-            grid-column-gap: 80px;
-            grid-row-gap: 50px;
-            grid-template:
-                "."
-                "." / 1fr;
-            width: 80%;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 140px;
-
-            &-text{
-                grid-area: 1 / 1 / 2 / 2;
-            }
-
-            &-group{
-                grid-area: 2 / 1 / 3 / 2;
-            }
-
-            &-items{
-                grid-column-gap: 30px;
-                grid-row-gap: 0px;
-                grid-template:
-                    "."
-                    "." / 1fr;
-                padding-top: 0;
-
-                &--left{
-                    grid-area: 1 / 1 / 2 / 2;
-                }
-
-                &--right{
-                    grid-area: 2 / 1 / 3 / 2;
-                }
-
-                &--name{
-                    font-size: 24px;
-                    line-height: 42px;
-                }
-            }
-
-            &__personal{
-                width: 80%;
-                text-align: center;
-                grid-template:
-                    "."
-                    "."
-                    "."
-                    "." / 1fr;
-                margin-left: auto;
-                margin-right: auto;
-                display: block;
-                margin-bottom: 110px;
-
-                &-items{
-                    margin-bottom: 25px;
-                }
-            }
-
-            &__hobbies{
-
-                &-title{
-                    grid-area: 1 / 1 / 2 / 2;
-                }
-
-                &-list{
-                    grid-area: 2 / 1 / 3 / 2;
-                }
-            }
-
-            &__language{
-                &-title{
-                    grid-area: 1 / 2 / 2 / 3;
-                }
-
-                &-list{
-                    grid-area: Area;
-                }
-            }
-        }
-    }
-}
 
 @include sp{
     .p-about{
@@ -315,44 +194,46 @@ p{
                     line-height: 42px;
                 }
             }
+        }
 
-            &__personal{
-                width: 80%;
-                text-align: center;
-                grid-template:
-                    "."
-                    "."
-                    "."
-                    "." / 1fr;
-                margin-left: auto;
-                margin-right: auto;
-                display: block;
-                margin-bottom: 110px;
+        &__personal{
+            width: 80%;
+            text-align: center;
+            grid-template:
+                "."
+                "."
+                "."
+                "." / 1fr;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-bottom: 110px;
 
-                &-items{
-                    margin-bottom: 25px;
-                }
+            &-items{
+                margin-bottom: 25px;
+            }
+        }
+
+        &__hobbies{
+
+            &-title{
+                grid-area: 1 / 1 / 2 / 2;
             }
 
-            &__hobbies{
+            &-list{
+                grid-area: 2 / 1 / 3 / 2;
+                margin-top: 20px;
+            }
+        }
 
-                &-title{
-                    grid-area: 1 / 1 / 2 / 2;
-                }
-
-                &-list{
-                    grid-area: 2 / 1 / 3 / 2;
-                }
+        &__language{
+            &-title{
+                grid-area: 1 / 2 / 2 / 3;
             }
 
-            &__language{
-                &-title{
-                    grid-area: 1 / 2 / 2 / 3;
-                }
-
-                &-list{
-                    grid-area: Area;
-                }
+            &-list{
+                grid-area: Area;
+                margin-top: 20px;
             }
         }
     }
