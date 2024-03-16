@@ -6,6 +6,15 @@ p{
 
 @include pc{
     .p-about{
+        &__grid{
+            grid-row-gap: 16px;
+            grid-column-gap: 16px;
+            grid-template-rows: auto auto;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-columns: 1fr;
+            display: grid;
+        }
+
         &__intro{
             grid-column-gap: 63px;
             grid-row-gap: 30px;
@@ -103,6 +112,15 @@ p{
 
 @include tab{
     .p-about{
+        &__grid{
+            grid-row-gap: 16px;
+            grid-column-gap: 16px;
+            grid-template-rows: auto auto;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-columns: 1fr;
+            display: grid;
+        }
+
         &__intro{
             grid-column-gap: 63px;
             grid-row-gap: 30px;
@@ -200,6 +218,15 @@ p{
 
 @include sp{
     .p-about{
+        &__grid{
+            grid-row-gap: 16px;
+            grid-column-gap: 16px;
+            grid-template-rows: auto auto;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-columns: 1fr;
+            display: grid;
+        }
+        
         &__intro{
             grid-column-gap: 63px;
             grid-row-gap: 30px;
