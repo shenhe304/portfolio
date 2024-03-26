@@ -2,24 +2,26 @@
 
 @include pc {
     .p-work-details{
+        &__wrap{
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+        }
         &__top{
             padding: 110px 0 40px;
             background: #efefef;
         }
         &__mainVisual{
-            width: 1000px;
-            margin: 0 auto 40px;
-            border-radius: 4px;
+            width: 50%;
         }
         &__h1{
-            width: 800px;
-            margin: 0 auto 20px;
-            text-align: center;
+            text-transform: none;
+            margin: 0 0 10px;
+            padding-right: 20px;
+            font-size: 64px;
+            line-height: 80px;
             color: #D10C0C;
-        }
-        &__wrap{
-            display: flex;
-            justify-content: space-between;
+            font-weight: normal;
         }
         &__item{
             width: 45%;
