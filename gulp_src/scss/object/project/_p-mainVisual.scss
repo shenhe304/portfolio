@@ -2,11 +2,11 @@
 
 @include pc {
     .p-mainVisual{
-        padding: 18vh 0 10vh;
+        padding: 16vh 0 10vh;
         margin-bottom: 0;
 
         &__img{
-            width: 64%;
+            width: 16%;
             margin: 40px auto;
         }
     }
@@ -14,7 +14,7 @@
 
 @include tab {
     .p-mainVisual{
-        padding: 15vh 0 10vh;
+        padding: 14vh 0 10vh;
         margin-bottom: 0;
 
         &__img{
@@ -26,11 +26,11 @@
 
 @include sp {
     .p-mainVisual{
-        padding: 18vh 0 5vh;
+        padding: 16vh 0 5vh;
         margin-bottom: 0;
 
         &__img{
-            width: 100%;
+            width: 50%;
             margin: 20px auto;
         }
 
