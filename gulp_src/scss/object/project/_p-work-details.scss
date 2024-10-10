@@ -41,10 +41,10 @@
             margin-left: calc(50% - 50vw);
             margin-right: calc(50% - 50vw);
             color: #fff;
-            &-black{
+            &--black{
                 background: #1a1b1f;
             }
-            &-main{
+            &--main{
                 background: #d10c0c;
             }
         }
