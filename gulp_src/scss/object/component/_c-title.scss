@@ -27,7 +27,7 @@
         font-size: 24px;
         font-size: 24px;
         font-family: "Klee One", cursive;
-        border-left: 1px solid #1a1b1f;
+        border-bottom: 1px solid #1a1b1f;
 
         &:first-child{
             margin-top: 0;
@@ -73,9 +73,9 @@
     }
 
     .c-title-lv3{
-        padding: 0 0 0 8px;
-        margin: 40px 0 10px;
+        margin: 10px 0;
         font-size: 23px;
+        border-bottom: 1px solid #1a1b1f;
 
         &:first-child{
             margin-top: 0;
@@ -85,15 +85,6 @@
             padding: 0;
             margin-bottom: 20px;
             font-size: 27px;
-        }
-        &--rikonJP{
-            border-left: 4px solid #feb9b9;
-        }
-        &--rikonEN{
-            border-left: 4px solid #115173;
-        }
-        &--bkanJP{
-            border-left: 4px solid #759E65;
         }
     }
 }
@@ -118,9 +109,9 @@
         }
     }
     .c-title-lv3{
-        padding: 0 0 0 10px;
-        margin: 40px 0 10px;
+        margin: 10px 0;
         font-size: 19px;
+        border-bottom: 1px solid #1a1b1f;
         
         &:first-child{
             margin-top: 0;
@@ -130,15 +121,6 @@
             padding: 0;
             margin-bottom: 20px;
             font-size: 30px;
-        }
-        &--rikonJP{
-            border-left: 4px solid #feb9b9;
-        }
-        &--rikonEN{
-            border-left: 4px solid #115173;
-        }
-        &--bkanJP{
-            border-left: 4px solid #759E65;
         }
     }
 }
