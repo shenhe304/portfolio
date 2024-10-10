@@ -6,7 +6,7 @@
 }
 
 .u-list-disc::before {
-    content: "⚫︎";
+    content: "•";
     color: #1a1b1f;
     font-size: 20px;
     margin-right: 12px;
@@ -15,7 +15,7 @@
 }
 
 .u-list-disc--white::before {
-    content: "⚫︎";
+    content: "•";
     color: #fff;
     font-size: 20px;
     margin-right: 12px;
