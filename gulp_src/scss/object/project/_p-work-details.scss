@@ -40,10 +40,15 @@
             border-radius: 4px;
         }
         &__bg{
+            padding: 20px;
+            margin-left: calc(50% - 50vw);
+            margin-right: calc(50% - 50vw);
+            color: #fff;
             &-black{
-                margin: -20px; /* 外にはみ出す */
-                padding: 20px; /* 内側の余白 */
-                background: #333;
+                background: #1a1b1f;
+            }
+            &-main{
+                background: #d10c0c;
             }
         }
     }
