@@ -1,9 +1,10 @@
 @use "../global/import"as *;
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap');
 
 body{
-  font-family: "Montserrat", sans-serif;
-  font-weight: normal;
+  font-family: "Klee One", cursive;
+  font-weight: 400;
+  font-style: normal;
   color: #1a1b1f;
 }
 
@@ -40,5 +41,5 @@ html {
   }
 
   h1,h2,h3,h4{
-    font-family: "Montserrat", sans-serif;
+     font-family: "Klee One", cursive;
   }
