@@ -2,11 +2,6 @@
 
 @include pc {
     .p-work-details{
-        &__intro{
-            flex-direction: row;
-            align-items: flex-start;
-            display: flex;
-        }
         &__top{
             padding: 180px 0 60px;
             background: #efefef;
@@ -43,6 +38,13 @@
         }
         &__img{
             border-radius: 4px;
+        }
+        &__bg{
+            &-black{
+                margin: -20px; /* 外にはみ出す */
+                padding: 20px; /* 内側の余白 */
+                background: #333;
+            }
         }
     }
 }
