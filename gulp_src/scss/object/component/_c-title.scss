@@ -6,8 +6,8 @@
         font-size: 38px;
 
         &--large{
-            margin-bottom: 30px;
-            font-size: 38px;
+            margin-bottom:0;
+            font-size: 64px;
             text-align: center;
         }
     }
@@ -23,10 +23,11 @@
     }
 
     .c-title-lv3{
-        padding: 0 0 0 8px;
-        margin: 60px 0 10px;
+        margin: 30px 0 10px;
+        font-size: 24px;
         font-size: 24px;
         font-family: "Montserrat", sans-serif;
+        border-bottom: 1px solid #1a1b1f;
 
         &:first-child{
             margin-top: 0;
@@ -36,6 +37,7 @@
             padding: 0;
             margin-bottom: 20px;
             font-size: 30px;
+            border-bottom: none;
         }
 
         &--rikonJP{
@@ -56,8 +58,8 @@
         font-size: 36px;
 
         &--large{
-            margin-bottom: 30px;
-            font-size: 38px;
+            margin-bottom: 0;
+            font-size: 40px;
             text-align: center;
         }
     }
@@ -72,9 +74,9 @@
     }
 
     .c-title-lv3{
-        padding: 0 0 0 8px;
-        margin: 40px 0 10px;
+        margin: 30px 0 10px;
         font-size: 23px;
+        border-bottom: 1px solid #1a1b1f;
 
         &:first-child{
             margin-top: 0;
@@ -84,15 +86,7 @@
             padding: 0;
             margin-bottom: 20px;
             font-size: 27px;
-        }
-        &--rikonJP{
-            border-left: 4px solid #feb9b9;
-        }
-        &--rikonEN{
-            border-left: 4px solid #115173;
-        }
-        &--bkanJP{
-            border-left: 4px solid #759E65;
+            border-bottom: none;
         }
     }
 }
@@ -117,9 +111,9 @@
         }
     }
     .c-title-lv3{
-        padding: 0 0 0 10px;
-        margin: 40px 0 10px;
+        margin: 20px 0 10px;
         font-size: 19px;
+        border-bottom: 1px solid #1a1b1f;
         
         &:first-child{
             margin-top: 0;
@@ -129,15 +123,7 @@
             padding: 0;
             margin-bottom: 20px;
             font-size: 30px;
-        }
-        &--rikonJP{
-            border-left: 4px solid #feb9b9;
-        }
-        &--rikonEN{
-            border-left: 4px solid #115173;
-        }
-        &--bkanJP{
-            border-left: 4px solid #759E65;
+            border-bottom: none;
         }
     }
 }

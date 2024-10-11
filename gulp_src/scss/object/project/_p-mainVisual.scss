@@ -2,38 +2,53 @@
 
 @include pc {
     .p-mainVisual{
-        padding: 18vh 0 10vh;
+        padding: 16vh 0 10vh;
         margin-bottom: 0;
 
         &__img{
-            width: 64%;
+            width: 23%;
             margin: 40px auto;
+        }
+        &__myname{
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+        &__text{
+            font-weight: 300;
+            font-size: 16px;
         }
     }
 }
 
 @include tab {
     .p-mainVisual{
-        padding: 15vh 0 10vh;
+        padding: 14vh 0 10vh;
         margin-bottom: 0;
 
         &__img{
             width: 64%;
             margin: 30px auto;
         }
+        &__myname{
+            font-size: 20px;
+            margin-bottom: 0;
+        }
     }
 }
 
 @include sp {
     .p-mainVisual{
-        padding: 18vh 0 5vh;
+        padding: 16vh 0 5vh;
         margin-bottom: 0;
 
         &__img{
-            width: 100%;
+            width: 50%;
             margin: 20px auto;
         }
-
+        &__myname{
+            font-size: 20px;
+            margin-bottom: 0;
+        }
     }
 }
 

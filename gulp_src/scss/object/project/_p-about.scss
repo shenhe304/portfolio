@@ -1,9 +1,5 @@
 @use "../../global/import"as *;
 
-p{
-    opacity: .6;
-}
-
 @include pc{
     p{
         font-size: 14px;
