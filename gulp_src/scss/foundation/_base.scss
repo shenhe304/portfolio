@@ -1,8 +1,8 @@
 @use "../global/import"as *;
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #1a1b1f;
@@ -41,5 +41,5 @@ html {
   }
 
   h1,h2,h3,h4{
-     font-family: "Noto Sans JP", sans-serif;
+     font-family: "Montserrat", sans-serif;
   }
