@@ -6,8 +6,16 @@
         margin-bottom: 0;
 
         &__img{
-            width: 16%;
+            width: 23%;
             margin: 40px auto;
+        }
+        &__myname{
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+        &__text{
+            font-weight: 300;
+            font-size: 16px;
         }
     }
 }
@@ -21,6 +29,10 @@
             width: 64%;
             margin: 30px auto;
         }
+        &__myname{
+            font-size: 20px;
+            margin-bottom: 0;
+        }
     }
 }
 
@@ -33,7 +45,10 @@
             width: 50%;
             margin: 20px auto;
         }
-
+        &__myname{
+            font-size: 20px;
+            margin-bottom: 0;
+        }
     }
 }
 

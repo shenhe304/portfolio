@@ -6,8 +6,8 @@
         font-size: 38px;
 
         &--large{
-            margin-bottom: 30px;
-            font-size: 38px;
+            margin-bottom:0;
+            font-size: 64px;
             text-align: center;
         }
     }
@@ -37,6 +37,7 @@
             padding: 0;
             margin-bottom: 20px;
             font-size: 30px;
+            border-bottom: none;
         }
 
         &--rikonJP{
@@ -57,8 +58,8 @@
         font-size: 36px;
 
         &--large{
-            margin-bottom: 30px;
-            font-size: 38px;
+            margin-bottom: 0;
+            font-size: 40px;
             text-align: center;
         }
     }
@@ -85,6 +86,7 @@
             padding: 0;
             margin-bottom: 20px;
             font-size: 27px;
+            border-bottom: none;
         }
     }
 }
@@ -121,6 +123,7 @@
             padding: 0;
             margin-bottom: 20px;
             font-size: 30px;
+            border-bottom: none;
         }
     }
 }
